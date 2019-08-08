@@ -41,22 +41,32 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7GM-Ii-Uo6">
-                                <rect key="frame" x="231" y="454" width="86" height="108"/>
+                                <rect key="frame" x="231" y="263" width="86" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="😇"/>
+                                <connections>
+                                    <action selector="Angel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PAR-gz-JPy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="usp-S2-uva">
-                                <rect key="frame" x="98" y="454" width="86" height="108"/>
+                                <rect key="frame" x="98" y="263" width="86" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="😈"/>
+                                <connections>
+                                    <action selector="Crying:" destination="BYZ-38-t0r" eventType="touchUpInside" id="26W-bi-C2E"/>
+                                    <action selector="Devil:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g61-XN-NNb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSH-tW-8Bc">
-                                <rect key="frame" x="98" y="570" width="86" height="108"/>
+                                <rect key="frame" x="98" y="379" width="86" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="😱"/>
+                                <connections>
+                                    <action selector="Horror:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ulW-B5-7EL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.92718948496167053" green="0.61930925168888495" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
