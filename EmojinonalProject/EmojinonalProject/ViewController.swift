@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     let emojis = ["☺️" : "Smiling", "😭" : "Cries"]
+    let customMessages = ["Smiling" : ["Keep up with the smiles", "Don't let yesterday ruin today", "Life is great!"], "Cries" : ["Stop looking at the cons and start looking at the pros!", "Start looking up instead of down", "Better things are coming your way!", "Just like an arrow you have to be dragged down before you can go up"]]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +19,8 @@ class ViewController: UIViewController {
 
     @IBAction func Smilely(_ sender: UIButton!) {
         let selectedEmotion = sender.titleLabel?.text
-       let alertController = UIAlertController(title: "Feeling Splendid?", message: "Don't let anything ruin your awesome day!!!", preferredStyle: UIAlertController.Style.alert)
+        let emojiMessage = customMessages[emojis[selectedEmotion!]!]?[0]
+        let alertController = UIAlertController(title: "Feeling Splendid?", message: "Don't let anything ruin your awesome day!!!", preferredStyle: UIAlertController.Style.alert)
         
         alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
         
@@ -28,6 +30,7 @@ class ViewController: UIViewController {
     
     @IBAction func Crying(_ sender: UIButton) {
         let selectedEmotion = sender.titleLabel?.text
+        let emojiMessage = customMessages[emojis[selectedEmotion!]!]?[0]
         let alertController = UIAlertController(title: "Feeling Sad?", message: "Better things are ahead. Don't stay stuck. Try something new. It may help lift your spirits.", preferredStyle: UIAlertController.Style.alert)
         
         alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
