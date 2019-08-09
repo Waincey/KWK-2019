@@ -23,7 +23,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="☺️"/>
                                 <connections>
-                                    <action selector="Smilely:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mN5-BW-Qi3"/>
+                                    <action selector="Emotions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ASv-He-ufM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NGd-hx-JMe">
@@ -31,7 +31,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="😭"/>
                                 <connections>
-                                    <action selector="Crying:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T0F-29-wBj"/>
+                                    <action selector="Emotions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f85-oY-UXb"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How are you feeling?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ojO-q7-hqe">
@@ -40,45 +40,101 @@
                                 <color key="textColor" red="0.26058912721894273" green="0.0" blue="0.64185961787564771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7GM-Ii-Uo6">
-                                <rect key="frame" x="231" y="263" width="86" height="108"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7GM-Ii-Uo6">
+                                <rect key="frame" x="233" y="268" width="86" height="108"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="😇"/>
                                 <connections>
-                                    <action selector="Angel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PAR-gz-JPy"/>
+                                    <action selector="Emotions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ffw-NL-Lgf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="usp-S2-uva">
-                                <rect key="frame" x="98" y="263" width="86" height="108"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="usp-S2-uva">
+                                <rect key="frame" x="95" y="268" width="86" height="108"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="😈"/>
                                 <connections>
-                                    <action selector="Crying:" destination="BYZ-38-t0r" eventType="touchUpInside" id="26W-bi-C2E"/>
-                                    <action selector="Devil:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g61-XN-NNb"/>
+                                    <action selector="Emotions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kTm-59-51j"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSH-tW-8Bc">
-                                <rect key="frame" x="98" y="379" width="86" height="108"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSH-tW-8Bc">
+                                <rect key="frame" x="95" y="389" width="86" height="108"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="😱"/>
                                 <connections>
-                                    <action selector="Horror:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ulW-B5-7EL"/>
+                                    <action selector="Emotions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Yy-jo-8eV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ZU-aX-idZ">
+                                <rect key="frame" x="233" y="389" width="86" height="108"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <state key="normal" title="😎"/>
+                                <connections>
+                                    <action selector="Emotions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sGr-2p-CfJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdC-aq-vo7">
+                                <rect key="frame" x="234" y="510" width="85" height="107"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="79"/>
+                                <state key="normal" title="🥰"/>
+                                <connections>
+                                    <action selector="Emotions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VWF-Qy-eGI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehe-vv-dbz">
+                                <rect key="frame" x="95" y="510" width="87" height="109"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="81"/>
+                                <state key="normal" title="🤯"/>
+                                <connections>
+                                    <action selector="Emotions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H4Y-IY-1LB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQW-F3-VbL">
+                                <rect key="frame" x="95" y="632" width="86" height="108"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <state key="normal" title="👽"/>
+                                <connections>
+                                    <action selector="Emotions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9bm-jh-NH6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vuf-e9-vPI">
+                                <rect key="frame" x="233" y="630" width="86" height="108"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <state key="normal" title="🏡"/>
+                                <connections>
+                                    <action selector="Emotions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cix-Gf-KaT"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.92718948496167053" green="0.61930925168888495" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0ZU-aX-idZ" secondAttribute="trailing" constant="95" id="56n-lZ-oMe"/>
+                            <constraint firstItem="Vuf-e9-vPI" firstAttribute="top" secondItem="pdC-aq-vo7" secondAttribute="bottom" constant="13" id="6HM-Ov-3SR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pdC-aq-vo7" secondAttribute="trailing" constant="95" id="9Ot-ex-2c9"/>
+                            <constraint firstItem="pdC-aq-vo7" firstAttribute="top" secondItem="0ZU-aX-idZ" secondAttribute="bottom" constant="13" id="Bt1-Q1-4Vx"/>
+                            <constraint firstItem="0ZU-aX-idZ" firstAttribute="leading" secondItem="SSH-tW-8Bc" secondAttribute="trailing" constant="52" id="IxH-Ed-nUu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7GM-Ii-Uo6" secondAttribute="trailing" constant="95" id="Jt9-Cp-sNS"/>
                             <constraint firstItem="Sh7-oP-6CM" firstAttribute="top" secondItem="ojO-q7-hqe" secondAttribute="bottom" constant="13" id="KhM-sw-WdL"/>
                             <constraint firstItem="ojO-q7-hqe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="LSl-X5-0lg"/>
+                            <constraint firstItem="usp-S2-uva" firstAttribute="top" secondItem="Sh7-oP-6CM" secondAttribute="bottom" constant="13" id="NDx-pW-HXW"/>
+                            <constraint firstItem="Vuf-e9-vPI" firstAttribute="leading" secondItem="nQW-F3-VbL" secondAttribute="trailing" constant="52" id="R8B-a7-9He"/>
                             <constraint firstItem="NGd-hx-JMe" firstAttribute="top" secondItem="ojO-q7-hqe" secondAttribute="bottom" constant="13" id="SwN-YV-pSz"/>
+                            <constraint firstItem="nQW-F3-VbL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="Ude-FI-haE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NGd-hx-JMe" secondAttribute="trailing" constant="95" id="WWR-Jo-GuO"/>
                             <constraint firstItem="ojO-q7-hqe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="a2j-0P-Pt4"/>
+                            <constraint firstItem="0ZU-aX-idZ" firstAttribute="top" secondItem="7GM-Ii-Uo6" secondAttribute="bottom" constant="13" id="a90-Hz-HY6"/>
+                            <constraint firstItem="7GM-Ii-Uo6" firstAttribute="leading" secondItem="usp-S2-uva" secondAttribute="trailing" constant="52" id="bEi-tv-75e"/>
+                            <constraint firstItem="pdC-aq-vo7" firstAttribute="leading" secondItem="ehe-vv-dbz" secondAttribute="trailing" constant="52" id="eky-jl-5k1"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ojO-q7-hqe" secondAttribute="trailing" constant="55" id="evH-dy-ECk"/>
+                            <constraint firstItem="ehe-vv-dbz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="gav-i6-Ofg"/>
+                            <constraint firstItem="SSH-tW-8Bc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="gpo-5A-5T1"/>
                             <constraint firstItem="Sh7-oP-6CM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="gxA-Zh-0TL"/>
+                            <constraint firstItem="ehe-vv-dbz" firstAttribute="top" secondItem="SSH-tW-8Bc" secondAttribute="bottom" constant="13" id="ilt-uB-FRH"/>
+                            <constraint firstItem="usp-S2-uva" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="js9-Ai-pWi"/>
+                            <constraint firstItem="SSH-tW-8Bc" firstAttribute="top" secondItem="usp-S2-uva" secondAttribute="bottom" constant="13" id="mBs-0b-dlt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vuf-e9-vPI" secondAttribute="trailing" constant="95" id="ngK-r0-zja"/>
+                            <constraint firstItem="nQW-F3-VbL" firstAttribute="top" secondItem="ehe-vv-dbz" secondAttribute="bottom" constant="13" id="rRl-iV-Vs6"/>
                             <constraint firstItem="NGd-hx-JMe" firstAttribute="leading" secondItem="Sh7-oP-6CM" secondAttribute="trailing" constant="52" id="sYQ-oY-UTE"/>
+                            <constraint firstItem="7GM-Ii-Uo6" firstAttribute="top" secondItem="NGd-hx-JMe" secondAttribute="bottom" constant="13" id="vUq-rs-T2o"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
