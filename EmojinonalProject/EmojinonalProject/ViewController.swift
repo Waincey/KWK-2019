@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     let emojis = ["☺️" : "Feeling Splendid?", "😭" : "Feeling Sad?", "😈" : "Feeling Devilish?", "😇" : "Feeling like an Angel?", "😱" : "Feeling Scared or Anxious?", "😎" : "Feeling Chill?", "🤯" : "Feeling Mindblown?", "🥰" : "Feeling at Peace/in Love?", "👽" : "Feeling Foreign?", "🏡" : "Feeling Comfortable/at Home?"]
-    let customMessages = ["Feeling Splendid" : ["Keep up with the smiles", "Don't let yesterday ruin today", "Life is great!"],
+    let customMessages =
+                          ["Feeling Splendid" : ["Keep up with the smiles", "Don't let yesterday ruin today", "Life is great!"],
                           "Feeling Sad?" : ["Stop looking at the cons and start looking at the pros!", "Start looking up instead of down", "Better things are coming your way!", "Just like an arrow you have to be dragged down before you can go up"],
                           "Feeling Devilish?" : ["Find something to do. Just make sure its safe and without negative consequences", "Don't get up to anything dangerous now", "Life is more fun with some mischief"],
                           "Feeling like an Angel?" : ["Keep up with the fantastic deeds of helpng others!", "Don't let the world ruin your innocence", "Thank you for being the good in the world"],
@@ -21,8 +22,6 @@ class ViewController: UIViewController {
                           "Feeling Foreign?" : ["You may feel out of place now but in no time you will have made friends and feel more comfortable", "Without being uncomfortable, you cannot grow. Use this opportunity to grow!", "Show the world what you can do!"],
                           "Feeling Comfortable/at Home?" : ["Expand your comfort zone little by little. There is a vast world out there", "Don't always keep yourself in your comfort zone. Expand it!", "Keep those people that you feel at home around close to you"]
                         ]
-    
-  
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,50 +39,4 @@ class ViewController: UIViewController {
 
         }
     
-//    @IBAction func Crying(_ sender: UIButton) {
-//        let selectedEmotion = sender.titleLabel?.text
-//        let emojiMessage = customMessages[emojis[selectedEmotion!]!]![Int.random(in: 0..<3)]
-//        let alertController = UIAlertController(title: "Feeling Sad?", message: "\(emojiMessage)", preferredStyle: UIAlertController.Style.alert)
-//
-//        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
-//
-//        present(alertController, animated: true, completion: nil)
-//    }
-    
-//    @IBAction func Devil(_ sender: Any) {
-//        let selectedEmotion = sender.titleLabel?.text
-//        let emojiMessage = customMessages[emojis[selectedEmotion!]!]![Int.random(in: 0..<3)]
-//        let alertController = UIAlertController(title: "Feeling Devilish?", message: "\(emojiMessage)", preferredStyle: UIAlertController.Style.alert)
-//
-//        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
-//
-//        present(alertController, animated: true, completion: nil)
-//    }
-//
-//    @IBAction func Angel(_ sender: Any) {
-//        let selectedEmotion = sender.titleLabel?.text
-//        let emojiMessage = customMessages[emojis[selectedEmotion!]!]![Int.random(in: 0..<3)]
-//        let alertController = UIAlertController(title: "Feeling Like an Angel?", message: "\(emojiMessage)", preferredStyle: UIAlertController.Style.alert)
-//
-//        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
-//
-//        present(alertController, animated: true, completion: nil)
-//    }
-//
-//    @IBAction func Horror(_ sender: Any) {
-//        let selectedEmotion = sender.titleLabel?.text
-//        let emojiMessage = customMessages[emojis[selectedEmotion!]!]![Int.random(in: 0..<3)]
-//        let alertController = UIAlertController(title: "Feeling Axious or Scared?", message: "\(emojiMessage)", preferredStyle: UIAlertController.Style.alert)
-//
-//        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
-//
-//        present(alertController, animated: true, completion: nil)
-//    }
-//}
-
-
-
-
-
-
 }

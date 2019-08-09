@@ -19,15 +19,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sh7-oP-6CM">
-                                <rect key="frame" x="95" y="147" width="86" height="108"/>
+                                <rect key="frame" x="95" y="149" width="86" height="108"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="☺️"/>
                                 <connections>
-                                    <action selector="Emotions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ASv-He-ufM"/>
+                                    <action selector="Emotions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CzX-LB-9hi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NGd-hx-JMe">
-                                <rect key="frame" x="233" y="147" width="86" height="108"/>
+                                <rect key="frame" x="233" y="149" width="86" height="108"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="😭"/>
                                 <connections>
@@ -35,13 +35,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How are you feeling?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ojO-q7-hqe">
-                                <rect key="frame" x="55" y="99" width="304" height="35"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="30"/>
+                                <rect key="frame" x="45" y="99" width="324" height="37"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="32"/>
                                 <color key="textColor" red="0.26058912721894273" green="0.0" blue="0.64185961787564771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7GM-Ii-Uo6">
-                                <rect key="frame" x="233" y="268" width="86" height="108"/>
+                                <rect key="frame" x="233" y="270" width="86" height="108"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="😇"/>
                                 <connections>
@@ -49,7 +49,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="usp-S2-uva">
-                                <rect key="frame" x="95" y="268" width="86" height="108"/>
+                                <rect key="frame" x="95" y="270" width="86" height="108"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="😈"/>
                                 <connections>
@@ -57,7 +57,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSH-tW-8Bc">
-                                <rect key="frame" x="95" y="389" width="86" height="108"/>
+                                <rect key="frame" x="95" y="391" width="86" height="108"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="😱"/>
                                 <connections>
@@ -65,7 +65,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ZU-aX-idZ">
-                                <rect key="frame" x="233" y="389" width="86" height="108"/>
+                                <rect key="frame" x="233" y="391" width="86" height="108"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="😎"/>
                                 <connections>
@@ -73,7 +73,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdC-aq-vo7">
-                                <rect key="frame" x="234" y="510" width="85" height="107"/>
+                                <rect key="frame" x="234" y="512" width="85" height="107"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="79"/>
                                 <state key="normal" title="🥰"/>
                                 <connections>
@@ -81,7 +81,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehe-vv-dbz">
-                                <rect key="frame" x="95" y="510" width="87" height="109"/>
+                                <rect key="frame" x="95" y="512" width="87" height="109"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="81"/>
                                 <state key="normal" title="🤯"/>
                                 <connections>
@@ -89,7 +89,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQW-F3-VbL">
-                                <rect key="frame" x="95" y="632" width="86" height="108"/>
+                                <rect key="frame" x="95" y="634" width="86" height="108"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="👽"/>
                                 <connections>
@@ -97,13 +97,25 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vuf-e9-vPI">
-                                <rect key="frame" x="233" y="630" width="86" height="108"/>
+                                <rect key="frame" x="233" y="632" width="86" height="108"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                 <state key="normal" title="🏡"/>
                                 <connections>
                                     <action selector="Emotions:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cix-Gf-KaT"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emojional by Waincey Chan " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vgc-Fc-4lp">
+                                <rect key="frame" x="40" y="757" width="334" height="33"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="27"/>
+                                <color key="textColor" red="0.14509803921568626" green="0.28235294117647058" blue="0.83529411764705885" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KWK 2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbq-VG-wkm">
+                                <rect key="frame" x="125" y="810" width="164" height="39"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.92718948496167053" green="0.61930925168888495" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -114,33 +126,40 @@
                             <constraint firstItem="0ZU-aX-idZ" firstAttribute="leading" secondItem="SSH-tW-8Bc" secondAttribute="trailing" constant="52" id="IxH-Ed-nUu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7GM-Ii-Uo6" secondAttribute="trailing" constant="95" id="Jt9-Cp-sNS"/>
                             <constraint firstItem="Sh7-oP-6CM" firstAttribute="top" secondItem="ojO-q7-hqe" secondAttribute="bottom" constant="13" id="KhM-sw-WdL"/>
-                            <constraint firstItem="ojO-q7-hqe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="LSl-X5-0lg"/>
+                            <constraint firstItem="ojO-q7-hqe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="LSl-X5-0lg"/>
                             <constraint firstItem="usp-S2-uva" firstAttribute="top" secondItem="Sh7-oP-6CM" secondAttribute="bottom" constant="13" id="NDx-pW-HXW"/>
+                            <constraint firstItem="Vgc-Fc-4lp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="QCG-NH-rZC"/>
                             <constraint firstItem="Vuf-e9-vPI" firstAttribute="leading" secondItem="nQW-F3-VbL" secondAttribute="trailing" constant="52" id="R8B-a7-9He"/>
                             <constraint firstItem="NGd-hx-JMe" firstAttribute="top" secondItem="ojO-q7-hqe" secondAttribute="bottom" constant="13" id="SwN-YV-pSz"/>
                             <constraint firstItem="nQW-F3-VbL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="Ude-FI-haE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NGd-hx-JMe" secondAttribute="trailing" constant="95" id="WWR-Jo-GuO"/>
+                            <constraint firstItem="fbq-VG-wkm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="Weh-qG-Ylj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vgc-Fc-4lp" secondAttribute="trailing" constant="40" id="Wmd-0B-vuK"/>
                             <constraint firstItem="ojO-q7-hqe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="a2j-0P-Pt4"/>
                             <constraint firstItem="0ZU-aX-idZ" firstAttribute="top" secondItem="7GM-Ii-Uo6" secondAttribute="bottom" constant="13" id="a90-Hz-HY6"/>
                             <constraint firstItem="7GM-Ii-Uo6" firstAttribute="leading" secondItem="usp-S2-uva" secondAttribute="trailing" constant="52" id="bEi-tv-75e"/>
                             <constraint firstItem="pdC-aq-vo7" firstAttribute="leading" secondItem="ehe-vv-dbz" secondAttribute="trailing" constant="52" id="eky-jl-5k1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ojO-q7-hqe" secondAttribute="trailing" constant="55" id="evH-dy-ECk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ojO-q7-hqe" secondAttribute="trailing" constant="45" id="evH-dy-ECk"/>
                             <constraint firstItem="ehe-vv-dbz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="gav-i6-Ofg"/>
                             <constraint firstItem="SSH-tW-8Bc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="gpo-5A-5T1"/>
                             <constraint firstItem="Sh7-oP-6CM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="gxA-Zh-0TL"/>
                             <constraint firstItem="ehe-vv-dbz" firstAttribute="top" secondItem="SSH-tW-8Bc" secondAttribute="bottom" constant="13" id="ilt-uB-FRH"/>
                             <constraint firstItem="usp-S2-uva" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="95" id="js9-Ai-pWi"/>
                             <constraint firstItem="SSH-tW-8Bc" firstAttribute="top" secondItem="usp-S2-uva" secondAttribute="bottom" constant="13" id="mBs-0b-dlt"/>
+                            <constraint firstItem="Vgc-Fc-4lp" firstAttribute="top" secondItem="nQW-F3-VbL" secondAttribute="bottom" constant="15" id="meO-oJ-hV6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vuf-e9-vPI" secondAttribute="trailing" constant="95" id="ngK-r0-zja"/>
                             <constraint firstItem="nQW-F3-VbL" firstAttribute="top" secondItem="ehe-vv-dbz" secondAttribute="bottom" constant="13" id="rRl-iV-Vs6"/>
                             <constraint firstItem="NGd-hx-JMe" firstAttribute="leading" secondItem="Sh7-oP-6CM" secondAttribute="trailing" constant="52" id="sYQ-oY-UTE"/>
                             <constraint firstItem="7GM-Ii-Uo6" firstAttribute="top" secondItem="NGd-hx-JMe" secondAttribute="bottom" constant="13" id="vUq-rs-T2o"/>
+                            <constraint firstItem="fbq-VG-wkm" firstAttribute="top" secondItem="Vgc-Fc-4lp" secondAttribute="bottom" constant="20" id="wXd-dw-Vok"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fbq-VG-wkm" secondAttribute="trailing" constant="125" id="xW9-jh-2LC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="20.758928571428569"/>
         </scene>
     </scenes>
 </document>
