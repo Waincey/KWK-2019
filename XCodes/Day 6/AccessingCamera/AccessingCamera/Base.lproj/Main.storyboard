@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AccessingCamera" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1D-gX-CTP">
+                                <rect key="frame" x="225" y="341" width="149" height="32"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Choose from Library"/>
+                                <connections>
+                                    <action selector="photoLibrary:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8q4-Dc-Rrc"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="p3p-2F-5P9">
+                                <rect key="frame" x="55" y="104" width="304" height="225"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="etn-bj-oz8">
+                                <rect key="frame" x="39" y="337" width="109" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Take a Selfie"/>
+                                <connections>
+                                    <action selector="takeSelfie:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kj3-h6-Jur"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="etn-bj-oz8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39" id="0LR-Hg-qfV"/>
+                            <constraint firstItem="Y1D-gX-CTP" firstAttribute="top" secondItem="p3p-2F-5P9" secondAttribute="bottom" constant="12" id="4JC-PV-zJs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="p3p-2F-5P9" secondAttribute="trailing" constant="55" id="CtE-NX-UE9"/>
+                            <constraint firstItem="p3p-2F-5P9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="H5Q-XA-v6Q"/>
+                            <constraint firstItem="p3p-2F-5P9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="55" id="Lor-zp-tdX"/>
+                            <constraint firstItem="etn-bj-oz8" firstAttribute="top" secondItem="p3p-2F-5P9" secondAttribute="bottom" constant="8" id="dMA-jh-qlE"/>
+                            <constraint firstItem="Y1D-gX-CTP" firstAttribute="leading" secondItem="etn-bj-oz8" secondAttribute="trailing" constant="77" id="f0V-uD-dLf"/>
+                            <constraint firstItem="etn-bj-oz8" firstAttribute="top" secondItem="p3p-2F-5P9" secondAttribute="bottom" constant="8" id="s3h-Zr-VQA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y1D-gX-CTP" secondAttribute="trailing" constant="40" id="wUR-O9-Pt1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="newImage" destination="p3p-2F-5P9" id="GfF-SF-s0Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="126.5625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="download" width="225" height="225"/>
+    </resources>
+</document>
