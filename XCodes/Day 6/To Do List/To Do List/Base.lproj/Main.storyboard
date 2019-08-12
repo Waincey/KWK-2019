@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pFd-BZ-nwc">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -13,7 +13,7 @@
         <!--To Do List-->
         <scene sceneID="O5k-Yc-Q4U">
             <objects>
-                <tableViewController id="59A-At-M35" sceneMemberID="viewController">
+                <tableViewController id="59A-At-M35" customClass="TableViewController" customModule="To_Do_List" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="CZF-9C-iq6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,17 +39,14 @@
                                 <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="NO"/>
                             </userDefinedRuntimeAttributes>
                             <connections>
-                                <segue destination="DIf-rS-yvw" kind="show" id="hpF-Ay-PEb"/>
+                                <segue destination="DIf-rS-yvw" kind="show" id="TcC-pW-Gmy"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <segue destination="kQm-Cd-sRU" kind="show" identifier="moveToComplete" id="GSC-96-IsG"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UrX-Yg-TEU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1658" y="-362"/>
+            <point key="canvasLocation" x="1777" y="-506"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="eBS-UC-c7P">
@@ -93,7 +90,7 @@
                                 <rect key="frame" x="190" y="401" width="51" height="31"/>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="srV-05-65y">
-                                <rect key="frame" x="344" y="128" width="30" height="30"/>
+                                <rect key="frame" x="344" y="84" width="30" height="30"/>
                                 <state key="normal" title="Add"/>
                                 <connections>
                                     <action selector="addTapped:" destination="DIf-rS-yvw" eventType="touchUpInside" id="KYf-O7-qha"/>
@@ -160,11 +157,15 @@
                     </view>
                     <connections>
                         <outlet property="titleLabel" destination="JCq-YU-yRa" id="CYF-Zf-KGo"/>
+                        <segue destination="59A-At-M35" kind="show" id="otI-8V-cek"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3mI-Cn-PjW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1710" y="333"/>
+            <point key="canvasLocation" x="1710" y="419"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="otI-8V-cek"/>
+    </inferredMetricsTieBreakers>
 </document>

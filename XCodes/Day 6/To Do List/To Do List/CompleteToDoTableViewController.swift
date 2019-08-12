@@ -10,18 +10,25 @@ import UIKit
 
 class CompleteToDoTableViewController: UITableViewController {
     var previousVC = TableViewController()
-    var selectedToDo = ToDo()
+//    var selectedToDo = ToDo()
+    var selectedToDo : ToDoCD?
 
     @IBOutlet weak var titleLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-          titleLabel.text = selectedToDo.name
+          titleLabel.text = selectedToDo?.name
     }
     
     
     @IBAction func completeTapped(_ sender: Any) {
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            if let thetoDo = selectedToDo {
+                context.delete(thetoDo)
+                navigationController?.popViewController(animated: true)
+            }
+        }
     }
     
     // MARK: - Table view data source

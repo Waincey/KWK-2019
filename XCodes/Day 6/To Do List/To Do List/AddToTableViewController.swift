@@ -26,15 +26,27 @@ class AddToTableViewController: UITableViewController {
     }
     
     @IBAction func addTapped(_ sender: Any) {
-        let toDo = ToDo()
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
         
-        if let titleText = textTitleField.text {
+            let toDo = ToDoCD(entity: ToDoCD.entity(), insertInto: context)
+            
+            if let titleText = textTitleField.text {
             toDo.name = titleText
             toDo.important = importantSwitch.isOn
+            }
+            
+            try? context.save()
+            
+            navigationController?.popViewController(animated: true)
         }
-        previousVC.toDos.append(toDo)
-        previousVC.tableView.reloadData()
-        navigationController?.popViewController(animated: true)
+        
+//        if let titleText = textTitleField.text {
+//            toDo.name = titleText
+//            toDo.important = importantSwitch.isOn
+//        }
+//        previousVC.toDos.append(toDo)
+//        previousVC.tableView.reloadData()
+//        navigationController?.popViewController(animated: true)
     }
     
     // MARK: - Table view data source

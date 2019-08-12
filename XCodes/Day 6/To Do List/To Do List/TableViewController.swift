@@ -9,7 +9,7 @@
 import UIKit
 
 class TableViewController: UITableViewController {
-    var toDos : [ToDo] = []
+    var toDos : [ToDoCD] = []
     
     func createToDos() -> [ToDo] {
         
@@ -26,7 +26,21 @@ class TableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        toDos = createToDos ()
+//        toDos = createToDos ()
+    }
+    
+    func getToDos() {
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            
+            if let coreDataToDos = try? context.fetch(ToDoCD.fetchRequest()) as? [ToDoCD] {
+                toDos = coreDataToDos
+                tableView.reloadData()
+            }
+        }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        getToDos()
     }
 
 //     MARK: - Table view data source
@@ -46,22 +60,24 @@ class TableViewController: UITableViewController {
 
         let toDo = toDos[indexPath.row]
         
+        if let name = toDo.name {
+        
         if toDo.important {
-            cell.textLabel?.text = "❗️" + toDo.name
+            cell.textLabel?.text = "❗️" + name
         } else {
             cell.textLabel?.text = toDo.name
         }
-
+        }
         return cell
-    
-    }
+}
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let addVC = segue.destination as? AddToTableViewController {
             addVC.previousVC = self
         }
         if let completeVC = segue.destination as? CompleteToDoTableViewController {
-            if let toDo = sender as? ToDo {
-                completeVC.selectedToDo = toDo
+            if let ToDo = sender as? ToDoCD {
+                completeVC.selectedToDo = ToDo
                 completeVC.previousVC = self
         }
     }
