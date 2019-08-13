@@ -48,7 +48,7 @@
         <!--Add New Photo-->
         <scene sceneID="4Kj-BE-ggO">
             <objects>
-                <viewController id="qkX-Ha-OFb" sceneMemberID="viewController">
+                <viewController id="qkX-Ha-OFb" customClass="AddPhotoViewController" customModule="ViewFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GJ2-Ox-3m9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -56,6 +56,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6m-kW-hU5">
                                 <rect key="frame" x="276" y="368" width="92" height="30"/>
                                 <state key="normal" title="Photo Library"/>
+                                <connections>
+                                    <action selector="photoLibraryTapped:" destination="qkX-Ha-OFb" eventType="touchUpInside" id="taB-0g-0Zp"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="unZ-g6-sMV">
                                 <rect key="frame" x="66" y="129" width="285" height="168"/>
@@ -63,6 +66,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QJj-CD-Ox2">
                                 <rect key="frame" x="43" y="368" width="54" height="30"/>
                                 <state key="normal" title="Camera"/>
+                                <connections>
+                                    <action selector="cameraTapped:" destination="qkX-Ha-OFb" eventType="touchUpInside" id="Ayd-Yd-z3n"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LdV-ch-gBt">
                                 <rect key="frame" x="87" y="406" width="240" height="30"/>
@@ -96,6 +102,9 @@
                         <viewLayoutGuide key="safeArea" id="ylx-o6-OIZ"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add New Photo" id="DbD-UW-mVM"/>
+                    <connections>
+                        <outlet property="newimage" destination="unZ-g6-sMV" id="g2s-p7-7qX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nq4-L9-HRe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
