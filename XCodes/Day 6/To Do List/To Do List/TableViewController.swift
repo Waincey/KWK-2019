@@ -11,6 +11,11 @@ import UIKit
 class TableViewController: UITableViewController {
     var toDos : [ToDoCD] = []
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        //        toDos = createToDos ()
+    }
+    
     func createToDos() -> [ToDo] {
         
         let swift = ToDo()
@@ -22,11 +27,6 @@ class TableViewController: UITableViewController {
         // important is set to false by default
         
         return [swift, dog]
-    }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-//        toDos = createToDos ()
     }
     
     func getToDos() {
@@ -72,10 +72,10 @@ class TableViewController: UITableViewController {
 }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let addVC = segue.destination as? AddToTableViewController {
+        if let addVC = segue.destination as? AddToViewController {
             addVC.previousVC = self
         }
-        if let completeVC = segue.destination as? CompleteToDoTableViewController {
+        if let completeVC = segue.destination as? CompleteToDoViewController {
             if let ToDo = sender as? ToDoCD {
                 completeVC.selectedToDo = ToDo
                 completeVC.previousVC = self

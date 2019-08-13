@@ -6,7 +6,6 @@
 //  Copyright © 2019 Apple. All rights reserved.
 //
 
-import Foundation
 class ToDo {
     var name = " "
     var important = false

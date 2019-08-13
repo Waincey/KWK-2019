@@ -14,8 +14,8 @@
 		183CFA1D2301A4D40052581F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183CFA1B2301A4D40052581F /* LaunchScreen.storyboard */; };
 		183CFA252301A6D90052581F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CFA242301A6D90052581F /* TableViewController.swift */; };
 		183CFA272301A6FA0052581F /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183CFA262301A6FA0052581F /* ToDo.swift */; };
-		1856430F2301B0C40095AA17 /* AddToTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1856430E2301B0C40095AA17 /* AddToTableViewController.swift */; };
-		185643112301B8370095AA17 /* CompleteToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185643102301B8370095AA17 /* CompleteToDoTableViewController.swift */; };
+		185643342302F1450095AA17 /* AddToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185643332302F1450095AA17 /* AddToViewController.swift */; };
+		18B7C52A2302F4CA00F84303 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7C5292302F4CA00F84303 /* CompleteToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		183CFA1E2301A4D40052581F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		183CFA242301A6D90052581F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		183CFA262301A6FA0052581F /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
-		1856430E2301B0C40095AA17 /* AddToTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToTableViewController.swift; sourceTree = "<group>"; };
-		185643102301B8370095AA17 /* CompleteToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoTableViewController.swift; sourceTree = "<group>"; };
+		185643332302F1450095AA17 /* AddToViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToViewController.swift; sourceTree = "<group>"; };
+		18B7C5292302F4CA00F84303 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +64,14 @@
 			children = (
 				183CFA0F2301A4D00052581F /* AppDelegate.swift */,
 				183CFA132301A4D00052581F /* Main.storyboard */,
-				185643102301B8370095AA17 /* CompleteToDoTableViewController.swift */,
+				18B7C5292302F4CA00F84303 /* CompleteToDoViewController.swift */,
+				185643332302F1450095AA17 /* AddToViewController.swift */,
 				183CFA242301A6D90052581F /* TableViewController.swift */,
 				183CFA262301A6FA0052581F /* ToDo.swift */,
 				183CFA192301A4D40052581F /* Assets.xcassets */,
 				183CFA1B2301A4D40052581F /* LaunchScreen.storyboard */,
 				183CFA1E2301A4D40052581F /* Info.plist */,
 				183CFA162301A4D00052581F /* To_Do_List.xcdatamodeld */,
-				1856430E2301B0C40095AA17 /* AddToTableViewController.swift */,
 			);
 			path = "To Do List";
 			sourceTree = "<group>";
@@ -147,12 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185643112301B8370095AA17 /* CompleteToDoTableViewController.swift in Sources */,
+				185643342302F1450095AA17 /* AddToViewController.swift in Sources */,
 				183CFA182301A4D00052581F /* To_Do_List.xcdatamodeld in Sources */,
+				18B7C52A2302F4CA00F84303 /* CompleteToDoViewController.swift in Sources */,
 				183CFA252301A6D90052581F /* TableViewController.swift in Sources */,
 				183CFA102301A4D00052581F /* AppDelegate.swift in Sources */,
 				183CFA272301A6FA0052581F /* ToDo.swift in Sources */,
-				1856430F2301B0C40095AA17 /* AddToTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
