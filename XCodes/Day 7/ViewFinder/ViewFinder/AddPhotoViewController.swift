@@ -10,6 +10,7 @@ import UIKit
 
 class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
+
     var imagePicker = UIImagePickerController()
 
     override func viewDidLoad() {
@@ -31,6 +32,7 @@ class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
         present(imagePicker, animated: true, completion: nil)
     }
     
+ 
     @IBOutlet weak var newImage: UIImageView!
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
@@ -41,6 +43,28 @@ class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
         
         imagePicker.dismiss(animated: true, completion: nil)
     }
+   
+    @IBAction func savePhotoTapped(_ sender: Any) {
+        
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            let photoToSave = Photos(entity: Photos.entity(), insertInto: context)
+            photoToSave.caption = captionText.text
+            
+            if let userImage = newImage.image{
+                
+                if let userImageData = userImage.pngData(){
+                    photoToSave.imageData = userImageData
+                }
+            }
+            (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
+            
+            navigationController?.popViewController(animated:true)
+        }
+    }
+    
+    @IBOutlet weak var captionText: UITextField!
+    
+    
     /*
     // MARK: - Navigation
 

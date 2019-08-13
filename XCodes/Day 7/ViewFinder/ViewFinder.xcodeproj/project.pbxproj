@@ -13,6 +13,8 @@
 		18B7C5422303028500F84303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18B7C5412303028500F84303 /* Assets.xcassets */; };
 		18B7C5452303028500F84303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B7C5432303028500F84303 /* LaunchScreen.storyboard */; };
 		18B7C54D2303090100F84303 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7C54C2303090100F84303 /* AddPhotoViewController.swift */; };
+		18B7C54F23030C2900F84303 /* PostTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B7C54E23030C2900F84303 /* PostTableTableViewController.swift */; };
+		18CA470423032F140057B6FC /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA470323032F140057B6FC /* PhotoDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		18B7C5442303028500F84303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18B7C5462303028500F84303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18B7C54C2303090100F84303 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
+		18B7C54E23030C2900F84303 /* PostTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableTableViewController.swift; sourceTree = "<group>"; };
+		18CA470323032F140057B6FC /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				18B7C5372303028300F84303 /* AppDelegate.swift */,
 				18B7C53B2303028300F84303 /* Main.storyboard */,
+				18CA470323032F140057B6FC /* PhotoDetailViewController.swift */,
+				18B7C54E23030C2900F84303 /* PostTableTableViewController.swift */,
 				18B7C54C2303090100F84303 /* AddPhotoViewController.swift */,
 				18B7C5412303028500F84303 /* Assets.xcassets */,
 				18B7C5432303028500F84303 /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				18B7C5402303028300F84303 /* ViewFinder.xcdatamodeld in Sources */,
 				18B7C54D2303090100F84303 /* AddPhotoViewController.swift in Sources */,
+				18B7C54F23030C2900F84303 /* PostTableTableViewController.swift in Sources */,
+				18CA470423032F140057B6FC /* PhotoDetailViewController.swift in Sources */,
 				18B7C5382303028300F84303 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
