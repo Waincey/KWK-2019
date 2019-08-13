@@ -63,7 +63,7 @@ class TableViewController: UITableViewController {
         if let name = toDo.name {
         
         if toDo.important {
-            cell.textLabel?.text = "❗️" + name
+            cell.textLabel?.text = "❣️" + name
         } else {
             cell.textLabel?.text = toDo.name
         }

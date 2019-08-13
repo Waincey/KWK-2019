@@ -3,7 +3,7 @@
 //var str = "Hello, playground"
 
 
-//                                     Code Challenge
+//                                     Code Challenge - Stop the Trolls
 let string = "Sorry for being late!"
 let k = String(string.flatMap(){
     if(!["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"].contains($0))
