@@ -13,6 +13,8 @@
 		18AE96B723044E2000570D79 /* Environmental_Issues.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18AE96B523044E2000570D79 /* Environmental_Issues.xcdatamodeld */; };
 		18AE96B923044E2100570D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AE96B823044E2100570D79 /* Assets.xcassets */; };
 		18AE96BC23044E2100570D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AE96BA23044E2100570D79 /* LaunchScreen.storyboard */; };
+		18D627EE230595300092CDBD /* InterestingFactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D627ED230595300092CDBD /* InterestingFactsViewController.swift */; };
+		18D627F02305B7C20092CDBD /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D627EF2305B7C20092CDBD /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		18AE96B823044E2100570D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18AE96BB23044E2100570D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18AE96BD23044E2100570D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D627ED230595300092CDBD /* InterestingFactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingFactsViewController.swift; sourceTree = "<group>"; };
+		18D627EF2305B7C20092CDBD /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				18AE96AE23044E2000570D79 /* AppDelegate.swift */,
 				18AE96B023044E2000570D79 /* ViewController.swift */,
 				18AE96B223044E2000570D79 /* Main.storyboard */,
+				18D627EF2305B7C20092CDBD /* QuizViewController.swift */,
+				18D627ED230595300092CDBD /* InterestingFactsViewController.swift */,
 				18AE96B823044E2100570D79 /* Assets.xcassets */,
 				18AE96BA23044E2100570D79 /* LaunchScreen.storyboard */,
 				18AE96BD23044E2100570D79 /* Info.plist */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18AE96B123044E2000570D79 /* ViewController.swift in Sources */,
+				18D627F02305B7C20092CDBD /* QuizViewController.swift in Sources */,
 				18AE96B723044E2000570D79 /* Environmental_Issues.xcdatamodeld in Sources */,
 				18AE96AF23044E2000570D79 /* AppDelegate.swift in Sources */,
+				18D627EE230595300092CDBD /* InterestingFactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,16 +27,64 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="JU9-Ra-bhV" kind="show" id="Aic-HX-fLo"/>
+                                    <segue destination="JU9-Ra-bhV" kind="show" id="FEi-vV-NbV"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHb-Mo-yD4">
+                                <rect key="frame" x="15" y="277" width="345" height="133.66666666666663"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Causes - Air pollution is many caused by the burning of fossil fuels like coal that factories use. It is also produced by vehicles such as cars, trains, airplanes, etc. It is even produced from household cleaning products such as painting supplies since they emit toxic chemicals into the air.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yja-tE-tTp">
+                                <rect key="frame" x="15" y="430.66666666666669" width="345" height="153.00000000000006"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Effects - Air pollution is actually very harmful to people. It can cause respiratory and heart problems such as cancer, pneumonia, and asthma. It also contributes greatly towards global warming and acid rain. When acid rain gets into bodies of waters, it can kill the sea life that live there and when it gets underground, it can harm plants on land.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHH-tM-HD2">
+                                <rect key="frame" x="15" y="604" width="344" height="174"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Ways to Help - The main ways that people can help is by reducing the pollution that they create. An example of this would be carpooling, biking, or walking to you destination, conserving energy by turning off lights when they are not in use, recycling, and using clean energy sources such as solar, wind, and hydro. Air pollution is very dangerous and everyone can help reduce it.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.76132306974949482" blue="0.4693094559781027" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="jHH-tM-HD2" firstAttribute="leading" secondItem="Bpz-Vz-ajg" secondAttribute="leading" constant="15" id="39Y-Sa-we7"/>
                             <constraint firstItem="SqE-7E-pSA" firstAttribute="top" secondItem="Bpz-Vz-ajg" secondAttribute="top" constant="30" id="3gT-HW-O97"/>
+                            <constraint firstItem="QHb-Mo-yD4" firstAttribute="leading" secondItem="Bpz-Vz-ajg" secondAttribute="leading" constant="15" id="Bue-6f-Zu5"/>
+                            <constraint firstItem="Yja-tE-tTp" firstAttribute="top" secondItem="QHb-Mo-yD4" secondAttribute="bottom" constant="20" id="F6O-uH-XE8"/>
                             <constraint firstItem="Bpz-Vz-ajg" firstAttribute="trailing" secondItem="SqE-7E-pSA" secondAttribute="trailing" constant="30" id="MoY-bo-DOL"/>
+                            <constraint firstItem="Bpz-Vz-ajg" firstAttribute="trailing" secondItem="Yja-tE-tTp" secondAttribute="trailing" constant="15" id="YED-J1-t1o"/>
                             <constraint firstItem="SqE-7E-pSA" firstAttribute="leading" secondItem="Bpz-Vz-ajg" secondAttribute="leading" constant="29" id="e4j-dU-hhe"/>
+                            <constraint firstItem="QHb-Mo-yD4" firstAttribute="top" secondItem="SqE-7E-pSA" secondAttribute="bottom" constant="20" id="ek8-R9-L1Y"/>
+                            <constraint firstItem="Bpz-Vz-ajg" firstAttribute="trailing" secondItem="jHH-tM-HD2" secondAttribute="trailing" constant="15" id="ekv-Jd-w4C"/>
+                            <constraint firstItem="Bpz-Vz-ajg" firstAttribute="trailing" secondItem="QHb-Mo-yD4" secondAttribute="trailing" constant="15" id="h1u-od-Gyx"/>
+                            <constraint firstItem="jHH-tM-HD2" firstAttribute="top" secondItem="QHb-Mo-yD4" secondAttribute="bottom" constant="30" id="qjn-Fo-VRN"/>
+                            <constraint firstItem="Yja-tE-tTp" firstAttribute="leading" secondItem="Bpz-Vz-ajg" secondAttribute="leading" constant="15" id="xnP-Wl-hU4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Bpz-Vz-ajg"/>
                     </view>
@@ -56,22 +104,70 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download-5" translatesAutoresizingMaskIntoConstraints="NO" id="7zf-5L-YCy">
                                 <rect key="frame" x="33" y="74" width="308" height="150"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHr-2S-cer">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHr-2S-cer">
                                 <rect key="frame" x="15" y="44" width="37" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="JU9-Ra-bhV" kind="show" id="kF9-hI-yMm"/>
+                                    <segue destination="JU9-Ra-bhV" kind="show" id="1Gh-eD-gDe"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geR-xf-v5e">
+                                <rect key="frame" x="10" y="222" width="355" height="217"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <mutableString key="content">Causes - Water pollution is caused by many different things such as oil spills, littering, pesticides and fertilizers, wastewater or water, and radioactive waste.  When is rains, pesticides, fertilizers, and other chemicals that farmers use runs into bodies of water causing pollution. 80% of the world’s waste water is returned to the environment without being treated. Radioactive waste from nuclear power plants, uranium mining, and materials for research / medicine can contaminate the water harming marine animals and plants.</mutableString>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="15" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WGt-Th-Dgh">
+                                <rect key="frame" x="8" y="428" width="359" height="158"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Effects -  The deadliest effect from water pollution is death. Death of humans and animals. Unclean water can give people diseases and contributes greatly to helping spread diseases. In the water, it can contribute to major algae blooms that consume all the oxygen in the water and blocks sunlight, killing any and all sea life.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MAa-M6-04W">
+                                <rect key="frame" x="15" y="584" width="345" height="194"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Ways to Help - A way to decrease water pollution is to recycle and reduce the amount of trash that we use. Some other ways to help are to properly dispose of trash and chemical cleaners, reduce the use of pesticides and fertilizers, and maintaining your car so it doesn’t leak items like oil. Runoff is something that makes a big difference, and we can all help by creating less chemicals that can be taken to bodies of water by runoff.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.67320634729956597" green="1" blue="0.93136114015850613" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="geR-xf-v5e" firstAttribute="top" secondItem="dHr-2S-cer" secondAttribute="bottom" constant="20" id="2Te-oS-sVY"/>
+                            <constraint firstItem="MAa-M6-04W" firstAttribute="top" secondItem="geR-xf-v5e" secondAttribute="bottom" constant="10" id="6kZ-pI-SfP"/>
+                            <constraint firstItem="i7K-vm-0yA" firstAttribute="trailing" secondItem="MAa-M6-04W" secondAttribute="trailing" constant="15" id="Agg-ai-14O"/>
                             <constraint firstItem="7zf-5L-YCy" firstAttribute="leading" secondItem="i7K-vm-0yA" secondAttribute="leading" constant="33" id="CDV-kx-bgA"/>
+                            <constraint firstItem="i7K-vm-0yA" firstAttribute="trailing" secondItem="geR-xf-v5e" secondAttribute="trailing" constant="10" id="DQw-1Q-3a3"/>
                             <constraint firstItem="7zf-5L-YCy" firstAttribute="top" secondItem="i7K-vm-0yA" secondAttribute="top" constant="30" id="TnW-Ko-hJ7"/>
+                            <constraint firstItem="WGt-Th-Dgh" firstAttribute="top" secondItem="7zf-5L-YCy" secondAttribute="bottom" constant="10" id="UmR-Zk-kP1"/>
+                            <constraint firstItem="i7K-vm-0yA" firstAttribute="trailing" secondItem="WGt-Th-Dgh" secondAttribute="trailing" constant="10" id="ZFL-p6-ZhV"/>
+                            <constraint firstItem="MAa-M6-04W" firstAttribute="leading" secondItem="i7K-vm-0yA" secondAttribute="leading" constant="15" id="bVq-A2-et7"/>
+                            <constraint firstItem="WGt-Th-Dgh" firstAttribute="leading" secondItem="i7K-vm-0yA" secondAttribute="leading" constant="10" id="bne-6P-AnA"/>
                             <constraint firstItem="i7K-vm-0yA" firstAttribute="trailing" secondItem="7zf-5L-YCy" secondAttribute="trailing" constant="34" id="lkF-sO-TYT"/>
+                            <constraint firstItem="geR-xf-v5e" firstAttribute="leading" secondItem="i7K-vm-0yA" secondAttribute="leading" constant="10" id="rvO-KI-NHu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="i7K-vm-0yA"/>
                     </view>
@@ -93,7 +189,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="120"/>
                                 <state key="normal" title="🌊"/>
                                 <connections>
-                                    <segue destination="oQj-sy-lA2" kind="show" id="jkb-O5-GiO"/>
+                                    <segue destination="oQj-sy-lA2" kind="show" id="AD9-VG-Bgl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sD5-bh-MhN">
@@ -101,7 +197,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="120"/>
                                 <state key="normal" title="💨"/>
                                 <connections>
-                                    <segue destination="dah-8s-yVf" kind="show" id="QSG-ye-LgR"/>
+                                    <segue destination="dah-8s-yVf" kind="show" id="oHb-ni-nFM"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Types of Pollution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUI-Xy-o2V">
@@ -122,7 +218,7 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="8ce-q2-IRF"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="d6Z-dl-Hnw"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Water Pollution" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRd-zf-QbA">
@@ -156,7 +252,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vgb-Wt-GVP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="153" y="-689"/>
+            <point key="canvasLocation" x="152.80000000000001" y="-689.40886699507394"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="e2I-2N-gc9">
@@ -175,15 +271,64 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="hu4-bc-aMc" kind="show" id="gkr-1d-vxb"/>
+                                    <segue destination="hu4-bc-aMc" kind="show" id="wLc-vI-7Rz"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jc-wB-lsJ">
+                                <rect key="frame" x="15" y="262" width="345" height="101.66666666666669"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Causes - Air pollutants such as oil and petrol engines, greenhouse gases, and fossil fuel that get trapped in the atmosphere for centuries causing the planet to heat up.
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ien-kk-Fup">
+                                <rect key="frame" x="15" y="555.66666666666663" width="345" height="142.33333333333337"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Ways to Help - Conserve energy and recycling. Conserving energy helps by producing less pollutants that go into the air. Recycling helps reduce land fills and the waste products emitted by decomposing.  You can also help by planting more trees to help clean the air.</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="owo-2x-cAo">
+                                <rect key="frame" x="15" y="393.66666666666669" width="345" height="122.00000000000006"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Effects - Intensified and more common natural disasters such as drought, hurricanes, storms, etc. Also makes the ocean temperatures rise melting the glaciers and causing polar bears and corals to become endangered.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.99058187398584763" green="1" blue="0.72897019873238378" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="yb6-0r-Ee1" firstAttribute="leading" secondItem="KMx-z9-pkg" secondAttribute="leading" constant="41" id="HfJ-ed-n6W"/>
+                            <constraint firstItem="4jc-wB-lsJ" firstAttribute="leading" secondItem="KMx-z9-pkg" secondAttribute="leading" constant="15" id="QLj-jS-lNw"/>
+                            <constraint firstItem="KMx-z9-pkg" firstAttribute="trailing" secondItem="owo-2x-cAo" secondAttribute="trailing" constant="15" id="QYq-qg-tbt"/>
+                            <constraint firstItem="4jc-wB-lsJ" firstAttribute="top" secondItem="yb6-0r-Ee1" secondAttribute="bottom" constant="20" id="UOk-fc-WxH"/>
                             <constraint firstItem="KMx-z9-pkg" firstAttribute="trailing" secondItem="yb6-0r-Ee1" secondAttribute="trailing" constant="41" id="UY3-g8-A2L"/>
+                            <constraint firstItem="owo-2x-cAo" firstAttribute="top" secondItem="4jc-wB-lsJ" secondAttribute="bottom" constant="30" id="fW6-ug-bB8"/>
+                            <constraint firstItem="ien-kk-Fup" firstAttribute="top" secondItem="owo-2x-cAo" secondAttribute="bottom" constant="40" id="hqY-Gg-ari"/>
+                            <constraint firstItem="KMx-z9-pkg" firstAttribute="trailing" secondItem="ien-kk-Fup" secondAttribute="trailing" constant="15" id="kqL-Qx-yyb"/>
+                            <constraint firstItem="KMx-z9-pkg" firstAttribute="trailing" secondItem="4jc-wB-lsJ" secondAttribute="trailing" constant="15" id="nEo-ek-9Y0"/>
+                            <constraint firstItem="ien-kk-Fup" firstAttribute="leading" secondItem="KMx-z9-pkg" secondAttribute="leading" constant="15" id="p4e-50-HCH"/>
+                            <constraint firstItem="owo-2x-cAo" firstAttribute="leading" secondItem="KMx-z9-pkg" secondAttribute="leading" constant="15" id="psg-Kk-5Sq"/>
                             <constraint firstItem="yb6-0r-Ee1" firstAttribute="top" secondItem="KMx-z9-pkg" secondAttribute="top" constant="30" id="rQ4-nK-D8D"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="KMx-z9-pkg"/>
@@ -212,7 +357,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="150"/>
                                 <state key="normal" title="🌍"/>
                                 <connections>
-                                    <segue destination="V13-J7-cHA" kind="show" id="AK6-7P-rnJ"/>
+                                    <segue destination="V13-J7-cHA" kind="show" id="QNu-Cd-Hc1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9RP-AG-hQl">
@@ -221,17 +366,31 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="mvp-US-PNm"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="QGQ-mh-kvu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bg5-0E-vQa">
+                                <rect key="frame" x="34" y="712" width="307" height="42"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
+                                <state key="normal" title="More Facts on the World ">
+                                    <color key="titleColor" red="0.41755101577849268" green="0.16427371022036125" blue="0.93271731671554403" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DTt-Ru-s9Y" kind="show" id="JsO-qD-M1n"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90588235294117647" green="0.55686274509803924" blue="0.45490196078431372" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Bg5-0E-vQa" firstAttribute="top" secondItem="Fl8-xB-rR6" secondAttribute="bottom" constant="210" id="4l7-Ge-AoZ"/>
                             <constraint firstItem="vCL-md-zgV" firstAttribute="leading" secondItem="c4s-QH-cE1" secondAttribute="leading" constant="76" id="EdY-ad-fla"/>
                             <constraint firstItem="c4s-QH-cE1" firstAttribute="trailing" secondItem="vCL-md-zgV" secondAttribute="trailing" constant="76" id="M27-4S-4CG"/>
                             <constraint firstItem="vCL-md-zgV" firstAttribute="top" secondItem="c4s-QH-cE1" secondAttribute="top" constant="30" id="OgA-xE-NDP"/>
+                            <constraint firstItem="c4s-QH-cE1" firstAttribute="bottom" secondItem="Bg5-0E-vQa" secondAttribute="bottom" constant="24" id="QfL-Ur-oQY"/>
+                            <constraint firstItem="Bg5-0E-vQa" firstAttribute="leading" secondItem="c4s-QH-cE1" secondAttribute="leading" constant="34" id="V6Q-IY-Cnf"/>
                             <constraint firstItem="Fl8-xB-rR6" firstAttribute="leading" secondItem="c4s-QH-cE1" secondAttribute="leading" constant="106" id="Wek-M9-0MT"/>
+                            <constraint firstItem="c4s-QH-cE1" firstAttribute="trailing" secondItem="Bg5-0E-vQa" secondAttribute="trailing" constant="34" id="qMa-cF-kjv"/>
                             <constraint firstItem="Fl8-xB-rR6" firstAttribute="top" secondItem="vCL-md-zgV" secondAttribute="bottom" constant="200" id="uDZ-T5-Vh3"/>
                             <constraint firstItem="c4s-QH-cE1" firstAttribute="trailing" secondItem="Fl8-xB-rR6" secondAttribute="trailing" constant="106" id="vty-IK-Xtd"/>
                         </constraints>
@@ -242,6 +401,112 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="855.66502463054189"/>
         </scene>
+        <!--Interesting Facts View Controller-->
+        <scene sceneID="oCj-EH-aRY">
+            <objects>
+                <viewController id="DTt-Ru-s9Y" customClass="InterestingFactsViewController" customModule="Environmental_Issues" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ro5-O4-zoh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEy-5r-iHC">
+                                <rect key="frame" x="16" y="44" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hu4-bc-aMc" kind="show" id="lzB-Ra-Qod"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interesting Facts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mv7-vB-UlF">
+                                <rect key="frame" x="81" y="74" width="213" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click on the emoji above" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZd-yw-OD3">
+                                <rect key="frame" x="90" y="711" width="195" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="to get random facts about the world " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zG2-6C-2Kt">
+                                <rect key="frame" x="48" y="740" width="279" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKU-FY-eVc">
+                                <rect key="frame" x="106" y="310" width="163" height="192"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="150"/>
+                                <state key="normal" title="😱"/>
+                                <connections>
+                                    <action selector="interestingFactsTapped:" destination="DTt-Ru-s9Y" eventType="touchUpInside" id="a7A-CP-MA5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.86234302034385402" green="0.55044581205705578" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qDv-ud-8cg" firstAttribute="trailing" secondItem="eZd-yw-OD3" secondAttribute="trailing" constant="90" id="2LZ-GK-U08"/>
+                            <constraint firstItem="qDv-ud-8cg" firstAttribute="trailing" secondItem="Mv7-vB-UlF" secondAttribute="trailing" constant="81" id="7WD-Qy-PjC"/>
+                            <constraint firstItem="qDv-ud-8cg" firstAttribute="trailing" secondItem="zG2-6C-2Kt" secondAttribute="trailing" constant="48" id="7pA-vy-URb"/>
+                            <constraint firstItem="Mv7-vB-UlF" firstAttribute="top" secondItem="qDv-ud-8cg" secondAttribute="top" constant="30" id="LpY-V3-HQY"/>
+                            <constraint firstItem="eZd-yw-OD3" firstAttribute="leading" secondItem="qDv-ud-8cg" secondAttribute="leading" constant="90" id="TBu-3X-HDi"/>
+                            <constraint firstItem="eZd-yw-OD3" firstAttribute="top" secondItem="nKU-FY-eVc" secondAttribute="bottom" constant="209" id="W3W-kv-hsd"/>
+                            <constraint firstItem="zG2-6C-2Kt" firstAttribute="leading" secondItem="qDv-ud-8cg" secondAttribute="leading" constant="48" id="YYe-el-PWw"/>
+                            <constraint firstItem="zG2-6C-2Kt" firstAttribute="top" secondItem="eZd-yw-OD3" secondAttribute="bottom" constant="8" id="eEp-aj-lxu"/>
+                            <constraint firstItem="qDv-ud-8cg" firstAttribute="trailing" secondItem="nKU-FY-eVc" secondAttribute="trailing" constant="106" id="jX5-tI-Eea"/>
+                            <constraint firstItem="Mv7-vB-UlF" firstAttribute="leading" secondItem="qDv-ud-8cg" secondAttribute="leading" constant="81" id="kl7-hb-OW4"/>
+                            <constraint firstItem="nKU-FY-eVc" firstAttribute="top" secondItem="Mv7-vB-UlF" secondAttribute="bottom" constant="200" id="nah-Im-jvu"/>
+                            <constraint firstItem="nKU-FY-eVc" firstAttribute="leading" secondItem="qDv-ud-8cg" secondAttribute="leading" constant="106" id="oda-Bh-uES"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="qDv-ud-8cg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5e4-4K-Bq4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="910" y="856"/>
+        </scene>
+        <!--Quiz View Controller-->
+        <scene sceneID="NCV-Vq-ZhF">
+            <objects>
+                <viewController id="i77-VB-bBl" customClass="QuizViewController" customModule="Environmental_Issues" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eWO-2g-sKf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quiz Time!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaA-3C-69h">
+                                <rect key="frame" x="82" y="102" width="210" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1.) How many African elephants are killed dailey by poachers?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohB-FF-yKK">
+                                <rect key="frame" x="13" y="166" width="348" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdT-8v-qoo">
+                                <rect key="frame" x="74" y="239" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.39819197725841338" green="0.7347569876693365" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="PbR-b2-Y4O"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZRZ-gJ-8xq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-714.39999999999998" y="124.8768472906404"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -251,33 +516,43 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAg-ei-96F">
-                                <rect key="frame" x="17" y="202" width="342" height="52"/>
+                                <rect key="frame" x="17" y="182" width="342" height="52"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="33"/>
                                 <state key="normal" title="Endangered Animals">
                                     <color key="titleColor" red="0.0" green="0.08235294118" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Jpf-Of-sNw" kind="show" id="WDr-0l-xtT"/>
+                                    <segue destination="Jpf-Of-sNw" kind="show" id="gC2-Vb-K33"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNw-DG-9fG">
-                                <rect key="frame" x="32" y="542" width="324" height="60"/>
+                                <rect key="frame" x="32" y="444" width="324" height="60"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
                                 <state key="normal" title="Global Warming ">
                                     <color key="titleColor" red="0.0" green="0.08235294118" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="hu4-bc-aMc" kind="show" id="tpp-77-paG"/>
+                                    <segue destination="hu4-bc-aMc" kind="show" id="wTW-tG-9p8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ojy-VX-bkO">
+                                <rect key="frame" x="142" y="579" width="91" height="60"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
+                                <state key="normal" title="Quiz">
+                                    <color key="titleColor" red="0.0" green="0.08235294118" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="i77-VB-bBl" kind="show" id="nIL-QS-f78"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tid-Cy-Cem">
-                                <rect key="frame" x="99" y="363" width="179" height="60"/>
+                                <rect key="frame" x="99" y="309" width="179" height="60"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
                                 <state key="normal" title="Pollution">
                                     <color key="titleColor" red="0.0" green="0.08235294118" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="JU9-Ra-bhV" kind="show" id="LSj-Hr-b65"/>
+                                    <segue destination="JU9-Ra-bhV" kind="show" id="W97-sE-l8D"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Environmental Issues!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WGL-ab-qth">
@@ -287,7 +562,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click above to find out more" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I9B-mg-amF">
-                                <rect key="frame" x="52" y="735" width="284" height="28"/>
+                                <rect key="frame" x="52" y="714" width="284" height="28"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="23"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -295,18 +570,21 @@
                         <color key="backgroundColor" red="0.45490196078431372" green="0.83921568627450982" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I9B-mg-amF" secondAttribute="trailing" constant="39" id="0sa-6J-I11"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ojy-VX-bkO" secondAttribute="trailing" constant="142" id="5x8-il-0Kb"/>
+                            <constraint firstItem="ojy-VX-bkO" firstAttribute="top" secondItem="mNw-DG-9fG" secondAttribute="bottom" constant="75" id="8UE-Sd-RO4"/>
                             <constraint firstItem="PAg-ei-96F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="17" id="9cV-cZ-ud4"/>
                             <constraint firstItem="Tid-Cy-Cem" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="99" id="DwD-DO-kE0"/>
-                            <constraint firstItem="I9B-mg-amF" firstAttribute="top" secondItem="mNw-DG-9fG" secondAttribute="bottom" constant="133" id="Ose-L3-aN8"/>
-                            <constraint firstItem="PAg-ei-96F" firstAttribute="top" secondItem="WGL-ab-qth" secondAttribute="bottom" constant="95" id="bhK-2d-5Sz"/>
-                            <constraint firstItem="mNw-DG-9fG" firstAttribute="top" secondItem="Tid-Cy-Cem" secondAttribute="bottom" constant="119" id="dgo-dd-AUm"/>
+                            <constraint firstItem="I9B-mg-amF" firstAttribute="top" secondItem="ojy-VX-bkO" secondAttribute="bottom" constant="75" id="M8f-z7-dZI"/>
+                            <constraint firstItem="PAg-ei-96F" firstAttribute="top" secondItem="WGL-ab-qth" secondAttribute="bottom" constant="75" id="bhK-2d-5Sz"/>
+                            <constraint firstItem="mNw-DG-9fG" firstAttribute="top" secondItem="Tid-Cy-Cem" secondAttribute="bottom" constant="75" id="dgo-dd-AUm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PAg-ei-96F" secondAttribute="trailing" constant="16" id="iIc-fc-26L"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tid-Cy-Cem" secondAttribute="trailing" constant="97" id="jjZ-gh-QaG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WGL-ab-qth" secondAttribute="trailing" constant="39" id="kuw-1K-5Le"/>
-                            <constraint firstItem="Tid-Cy-Cem" firstAttribute="top" secondItem="PAg-ei-96F" secondAttribute="bottom" constant="109" id="lO4-Rj-O9e"/>
+                            <constraint firstItem="Tid-Cy-Cem" firstAttribute="top" secondItem="PAg-ei-96F" secondAttribute="bottom" constant="75" id="lO4-Rj-O9e"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mNw-DG-9fG" secondAttribute="trailing" constant="19" id="lO8-yt-Kbz"/>
                             <constraint firstItem="mNw-DG-9fG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="mer-rO-Umc"/>
                             <constraint firstItem="I9B-mg-amF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="52" id="r3J-bQ-Ncp"/>
+                            <constraint firstItem="ojy-VX-bkO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="142" id="rud-ze-OhI"/>
                             <constraint firstItem="WGL-ab-qth" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="tDA-vQ-x79"/>
                             <constraint firstItem="WGL-ab-qth" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="zB2-dR-WXe"/>
                         </constraints>
@@ -330,7 +608,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <state key="normal" title="🐬"/>
                                 <connections>
-                                    <segue destination="0ca-4x-B99" kind="show" id="XNX-CL-3Q9"/>
+                                    <segue destination="0ca-4x-B99" kind="show" id="XZV-cZ-Y6j"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2nd-QI-Joh">
@@ -338,7 +616,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <state key="normal" title="🐼"/>
                                 <connections>
-                                    <segue destination="g4c-jD-tbC" kind="show" id="o3l-S3-kQS"/>
+                                    <segue destination="g4c-jD-tbC" kind="show" id="w0u-iM-QDY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHn-mW-uEY">
@@ -346,7 +624,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <state key="normal" title="🐆"/>
                                 <connections>
-                                    <segue destination="ZZT-Gy-Pwg" kind="show" id="sWk-SP-nO6"/>
+                                    <segue destination="ZZT-Gy-Pwg" kind="show" id="tOa-RN-Sj3"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dolphins" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R0L-HB-Elt">
@@ -367,7 +645,7 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="s5z-hw-8T6"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="iCd-tL-x9d"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Cheetahs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4PE-xH-Fjl">
@@ -393,7 +671,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <state key="normal" title="🐢"/>
                                 <connections>
-                                    <segue destination="3Sc-lR-ah9" kind="show" id="jGl-1h-x04"/>
+                                    <segue destination="3Sc-lR-ah9" kind="show" id="6Ww-Yb-d9Z"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -454,15 +732,58 @@
                                     <color key="titleShadowColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Jpf-Of-sNw" kind="show" id="MVo-pb-Wkp"/>
+                                    <segue destination="Jpf-Of-sNw" kind="show" id="00f-RE-izB"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eON-S5-3Wc">
+                                <rect key="frame" x="15" y="288" width="345" height="125.33333333333331"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Causes - One reason why Pandas are endangered is because of deforestation which is a  huge problem that us humans caused. Another is because not all female pandas have the ability to give birth to baby pandas which is causing a decrease in the panda population.  Also, food shortages are a huge part of their endangerment.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="15" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXy-dN-RCy">
+                                <rect key="frame" x="15" y="433.33333333333331" width="345" height="143.33333333333331"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Effects - One effect that the Pandas will have if they go extinct is on the economic benefits. People travel from all over to see them. Another effect is that there will not as much of a widespread growth of bamboo forests. They help keep the vegetation of the forests alive and safeguarding the environment. Without them the environment of places use to Pandas will be in danger.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="15" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECo-51-1s2">
+                                <rect key="frame" x="15" y="596.66666666666663" width="345" height="125.33333333333337"/>
+                                <string key="text">Ways to help -  One Way to help is to use less paper. Pandas depend on bamboo for food and more paper means less bamboo. Another way is to provide areas that are only for hurt or injured pandas so we can help them get back on their feet instead of being left to die. Again another way is to donate to Panda Conservation centers.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.90588235289999997" green="0.55283119865252439" blue="0.87984946080287929" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="HXy-dN-RCy" firstAttribute="top" secondItem="eON-S5-3Wc" secondAttribute="bottom" constant="20" id="1Az-l3-296"/>
+                            <constraint firstItem="KiI-BX-Gmd" firstAttribute="trailing" secondItem="HXy-dN-RCy" secondAttribute="trailing" constant="15" id="444-Sh-dMM"/>
+                            <constraint firstItem="KiI-BX-Gmd" firstAttribute="trailing" secondItem="eON-S5-3Wc" secondAttribute="trailing" constant="15" id="5Z6-Z0-XXO"/>
+                            <constraint firstItem="KiI-BX-Gmd" firstAttribute="trailing" secondItem="ECo-51-1s2" secondAttribute="trailing" constant="15" id="76e-7i-Ude"/>
+                            <constraint firstItem="ECo-51-1s2" firstAttribute="leading" secondItem="KiI-BX-Gmd" secondAttribute="leading" constant="15" id="7wa-tD-ip8"/>
                             <constraint firstItem="nny-VQ-riO" firstAttribute="top" secondItem="KiI-BX-Gmd" secondAttribute="top" constant="30" id="KnC-k7-yei"/>
+                            <constraint firstItem="HXy-dN-RCy" firstAttribute="leading" secondItem="KiI-BX-Gmd" secondAttribute="leading" constant="15" id="NV3-q1-tQo"/>
+                            <constraint firstItem="ECo-51-1s2" firstAttribute="top" secondItem="HXy-dN-RCy" secondAttribute="bottom" constant="20" id="Q71-Fr-2Xq"/>
+                            <constraint firstItem="eON-S5-3Wc" firstAttribute="leading" secondItem="KiI-BX-Gmd" secondAttribute="leading" constant="15" id="R95-sP-WrJ"/>
                             <constraint firstItem="KiI-BX-Gmd" firstAttribute="trailing" secondItem="nny-VQ-riO" secondAttribute="trailing" constant="37" id="d0y-Xt-S06"/>
+                            <constraint firstItem="eON-S5-3Wc" firstAttribute="top" secondItem="nny-VQ-riO" secondAttribute="bottom" constant="20" id="s4x-uj-SZd"/>
                             <constraint firstItem="nny-VQ-riO" firstAttribute="leading" secondItem="KiI-BX-Gmd" secondAttribute="leading" constant="36" id="v46-DZ-k3r"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="KiI-BX-Gmd"/>
@@ -489,23 +810,65 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="Jpf-Of-sNw" kind="show" id="dbk-Ea-w8e"/>
+                                    <segue destination="Jpf-Of-sNw" kind="show" id="fgD-vI-KZg"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zbh-HK-fWK">
+                                <rect key="frame" x="15" y="262" width="345" height="162.33333333333337"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Causes -  Cheetahs are endangered because they require large, open areas and are at a loss of living space. Another cause is that the native people of Southern Africa hunt down and kill cheetahs in order to make room for themselves. Last, but not least Cheetahs have natural completion with other predators in the wild.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lGf-Tr-b58">
+                                <rect key="frame" x="15" y="606.66666666666663" width="345" height="122"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Ways to help -  some ways we can help endangered Cheetahs is to help out or donate to Cheetah Conservation Funds. Another way is to speak up for your beliefs and what’s wrong. Lastly, if you can try to adopt an animal.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="17" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENq-CX-ytr">
+                                <rect key="frame" x="15" y="444.33333333333331" width="345" height="142.33333333333331"/>
+                                <string key="text">Effects - The loss of habitat affects Cheetahs because they don’t have anywhere to live and end up dying. The effects that natural competition has on Cheetahs is that makes them fight with other animals such as Tigers for food and the right to survive which shouldn’t be the case.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.75014109770801063" blue="0.68142870239703357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="zMm-YT-dlm" firstAttribute="trailing" secondItem="Zbh-HK-fWK" secondAttribute="trailing" constant="15" id="0h0-GH-fxo"/>
+                            <constraint firstItem="zMm-YT-dlm" firstAttribute="trailing" secondItem="ENq-CX-ytr" secondAttribute="trailing" constant="15" id="DIe-al-qnJ"/>
+                            <constraint firstItem="Zbh-HK-fWK" firstAttribute="top" secondItem="hh7-Ea-Kfl" secondAttribute="bottom" constant="20" id="Ij8-Aq-NGB"/>
+                            <constraint firstItem="Zbh-HK-fWK" firstAttribute="leading" secondItem="zMm-YT-dlm" secondAttribute="leading" constant="15" id="Iuk-qH-Qbw"/>
                             <constraint firstItem="hh7-Ea-Kfl" firstAttribute="top" secondItem="zMm-YT-dlm" secondAttribute="top" constant="30" id="cM8-uc-fnI"/>
+                            <constraint firstItem="lGf-Tr-b58" firstAttribute="leading" secondItem="zMm-YT-dlm" secondAttribute="leading" constant="15" id="eC9-R3-gyM"/>
+                            <constraint firstItem="zMm-YT-dlm" firstAttribute="trailing" secondItem="lGf-Tr-b58" secondAttribute="trailing" constant="15" id="hom-Nd-j5F"/>
                             <constraint firstItem="hh7-Ea-Kfl" firstAttribute="leading" secondItem="zMm-YT-dlm" secondAttribute="leading" constant="50" id="r3H-0m-NPk"/>
+                            <constraint firstItem="lGf-Tr-b58" firstAttribute="top" secondItem="ENq-CX-ytr" secondAttribute="bottom" constant="20" id="uD0-7Q-H7J"/>
+                            <constraint firstItem="ENq-CX-ytr" firstAttribute="top" secondItem="Zbh-HK-fWK" secondAttribute="bottom" constant="20" id="vCW-hN-dJa"/>
                             <constraint firstItem="zMm-YT-dlm" firstAttribute="trailing" secondItem="hh7-Ea-Kfl" secondAttribute="trailing" constant="51" id="vcH-id-PIK"/>
+                            <constraint firstItem="ENq-CX-ytr" firstAttribute="leading" secondItem="zMm-YT-dlm" secondAttribute="leading" constant="15" id="wZC-Oz-fRp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zMm-YT-dlm"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JVc-0f-acD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2345" y="221"/>
+            <point key="canvasLocation" x="2344.8000000000002" y="220.93596059113301"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5sp-lQ-kAU">
@@ -518,21 +881,69 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download-1" translatesAutoresizingMaskIntoConstraints="NO" id="Khw-9Y-IBR">
                                 <rect key="frame" x="42" y="74" width="291" height="159"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nNk-OE-b3k">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nNk-OE-b3k">
                                 <rect key="frame" x="15" y="44" width="37" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="Jpf-Of-sNw" kind="show" id="MPm-NF-lh6"/>
+                                    <segue destination="Jpf-Of-sNw" kind="show" id="sHv-be-kTX"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xwc-i8-DiP">
+                                <rect key="frame" x="15" y="421" width="345" height="176"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Effects - Slaughtering Sea turtles for their eggs, meat, skin, or shells is that it leads to Illegal consumption of eggs and meat which can give people certain diseases. Effects of unintentional captures in fishing gear has is that 40% of animals caught get thrown away, usually dead. Effects of Global Warming are that it exceeds the abilities of Sea turtles to naturally adapt to environmental changes.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="16" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KkY-EL-0sf">
+                                <rect key="frame" x="15" y="614" width="345" height="131"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Ways to Help - One way is to try to preserve beaches to not prevent turtles from nesting. Another way is to encourage local residents, visitors, and businesses to remove the trash that attracts other predators. Lastly, we could also organize workshops and beach clean-ups</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OZe-vf-iwa">
+                                <rect key="frame" x="15" y="256" width="350" height="141"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Causes - Sea Turtles that have been slaughtered for their eggs, meat, skin, or shells are suffering from poaching and over-harvesting.  Another cause is unintentional captures in various fishing gear. Global Warming has also had huge impacts on turtle nesting sites leading to more deaths.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.14117647059999999" green="0.71764705880000002" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="KkY-EL-0sf" firstAttribute="top" secondItem="xwc-i8-DiP" secondAttribute="bottom" constant="20" id="1ON-O8-KB9"/>
+                            <constraint firstItem="xwc-i8-DiP" firstAttribute="leading" secondItem="aGi-fs-C1r" secondAttribute="leading" constant="15" id="5pZ-Ty-xhZ"/>
+                            <constraint firstItem="xwc-i8-DiP" firstAttribute="top" secondItem="OZe-vf-iwa" secondAttribute="bottom" constant="20" id="ERQ-cE-vcc"/>
                             <constraint firstItem="aGi-fs-C1r" firstAttribute="trailing" secondItem="Khw-9Y-IBR" secondAttribute="trailing" constant="42" id="GiA-nx-U28"/>
+                            <constraint firstItem="aGi-fs-C1r" firstAttribute="trailing" secondItem="xwc-i8-DiP" secondAttribute="trailing" constant="15" id="Vd0-2D-y1w"/>
                             <constraint firstItem="Khw-9Y-IBR" firstAttribute="top" secondItem="aGi-fs-C1r" secondAttribute="top" constant="30" id="dqV-Nv-95N"/>
+                            <constraint firstItem="aGi-fs-C1r" firstAttribute="trailing" secondItem="KkY-EL-0sf" secondAttribute="trailing" constant="15" id="ijK-c2-vG4"/>
+                            <constraint firstItem="OZe-vf-iwa" firstAttribute="top" secondItem="nNk-OE-b3k" secondAttribute="bottom" constant="20" id="o44-UA-RgG"/>
+                            <constraint firstItem="OZe-vf-iwa" firstAttribute="leading" secondItem="aGi-fs-C1r" secondAttribute="leading" constant="15" id="uOf-Nw-6a7"/>
+                            <constraint firstItem="KkY-EL-0sf" firstAttribute="leading" secondItem="Wrp-eq-0am" secondAttribute="leading" constant="15" id="vuT-Aj-fdU"/>
+                            <constraint firstItem="aGi-fs-C1r" firstAttribute="trailing" secondItem="OZe-vf-iwa" secondAttribute="trailing" constant="10" id="xQM-TA-AM8"/>
                             <constraint firstItem="Khw-9Y-IBR" firstAttribute="leading" secondItem="aGi-fs-C1r" secondAttribute="leading" constant="42" id="z0n-Wf-b6c"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="aGi-fs-C1r"/>
@@ -540,7 +951,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rEc-OK-4wD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2345" y="-489"/>
+            <point key="canvasLocation" x="2344.8000000000002" y="-489.16256157635468"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ej9-uI-tF9">
@@ -561,16 +972,52 @@
                                     <color key="titleShadowColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Jpf-Of-sNw" kind="show" id="78s-HY-PYS"/>
+                                    <segue destination="Jpf-Of-sNw" kind="show" id="aSZ-dA-khp"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TiF-Jw-4Ph">
+                                <rect key="frame" x="15" y="262" width="345" height="153"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Causes - Dolphins are mostly endangered due to human activity such as illegal dynamite fishing or bombing fish for easy collection, getting entangled in fishing nets, dolphin hunting, captivity, global warming, and pollutions such as chemicals in the water and noises like oil drilling that can damage their hearing.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="16" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p2z-YM-ik9">
+                                <rect key="frame" x="15" y="435" width="345" height="95.666666666666629"/>
+                                <string key="text">Effects - Dolphins are considered the sanitary police of the oceans since they prey mainly on old and ill fish. By killing off all the dolphins, the oceans could result in a higher disease rate in many different kinds of fish.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAI-Wm-7cL">
+                                <rect key="frame" x="15" y="560.66666666666663" width="345" height="172"/>
+                                <string key="text">Ways to Help - Some ways that people can help is by recycling, not littering, conserving water, and pulling weeds instead of using pesticides. After it rains, pesticides can end up in large bodies of water, contributing to chemical pollution that are harmful to the dolphins. If there are conservation projects in your local area, participate and help keep the oceans clean!</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.60143024204225348" green="0.61930925169999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="c6H-Nl-bXb" firstAttribute="trailing" secondItem="hAI-Wm-7cL" secondAttribute="trailing" constant="15" id="0lt-SJ-oxb"/>
+                            <constraint firstItem="p2z-YM-ik9" firstAttribute="top" secondItem="TiF-Jw-4Ph" secondAttribute="bottom" constant="20" id="Cfv-4g-AqW"/>
                             <constraint firstItem="bIh-Wy-WNS" firstAttribute="leading" secondItem="c6H-Nl-bXb" secondAttribute="leading" constant="45" id="Tbb-gF-bbf"/>
+                            <constraint firstItem="p2z-YM-ik9" firstAttribute="leading" secondItem="c6H-Nl-bXb" secondAttribute="leading" constant="15" id="UfE-Mc-IZw"/>
+                            <constraint firstItem="c6H-Nl-bXb" firstAttribute="trailing" secondItem="p2z-YM-ik9" secondAttribute="trailing" constant="15" id="Vj1-Ap-N9k"/>
+                            <constraint firstItem="hAI-Wm-7cL" firstAttribute="leading" secondItem="c6H-Nl-bXb" secondAttribute="leading" constant="15" id="aHS-Ce-x6w"/>
+                            <constraint firstItem="TiF-Jw-4Ph" firstAttribute="leading" secondItem="c6H-Nl-bXb" secondAttribute="leading" constant="15" id="bnb-zo-KOf"/>
+                            <constraint firstItem="c6H-Nl-bXb" firstAttribute="trailing" secondItem="TiF-Jw-4Ph" secondAttribute="trailing" constant="15" id="eQw-2f-yHI"/>
                             <constraint firstItem="c6H-Nl-bXb" firstAttribute="trailing" secondItem="bIh-Wy-WNS" secondAttribute="trailing" constant="45" id="jDO-mp-fBv"/>
+                            <constraint firstItem="hAI-Wm-7cL" firstAttribute="top" secondItem="p2z-YM-ik9" secondAttribute="bottom" constant="30" id="m0Z-sq-g4C"/>
                             <constraint firstItem="bIh-Wy-WNS" firstAttribute="top" secondItem="c6H-Nl-bXb" secondAttribute="top" constant="30" id="qap-8i-Lmc"/>
+                            <constraint firstItem="TiF-Jw-4Ph" firstAttribute="top" secondItem="bIh-Wy-WNS" secondAttribute="bottom" constant="20" id="xjj-oU-eh7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="c6H-Nl-bXb"/>
                     </view>
@@ -590,11 +1037,9 @@
         <image name="download-6" width="300" height="168"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QSG-ye-LgR"/>
-        <segue reference="sWk-SP-nO6"/>
-        <segue reference="dbk-Ea-w8e"/>
-        <segue reference="8ce-q2-IRF"/>
-        <segue reference="gkr-1d-vxb"/>
-        <segue reference="Aic-HX-fLo"/>
+        <segue reference="gC2-Vb-K33"/>
+        <segue reference="QGQ-mh-kvu"/>
+        <segue reference="wTW-tG-9p8"/>
+        <segue reference="W97-sE-l8D"/>
     </inferredMetricsTieBreakers>
 </document>
