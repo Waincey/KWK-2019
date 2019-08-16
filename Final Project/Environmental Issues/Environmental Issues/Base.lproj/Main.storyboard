@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -13,13 +13,13 @@
         <!--View Controller-->
         <scene sceneID="HNT-Sa-yRl">
             <objects>
-                <viewController id="dah-8s-yVf" sceneMemberID="viewController">
+                <viewController id="dah-8s-yVf" customClass="ViewController" customModule="Environmental_Issues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dnp-lZ-cKG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download-4" translatesAutoresizingMaskIntoConstraints="NO" id="SqE-7E-pSA">
-                                <rect key="frame" x="29" y="74" width="355" height="183"/>
+                                <rect key="frame" x="29" y="74" width="316" height="183"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qAa-Cf-bta">
                                 <rect key="frame" x="15" y="44" width="37" height="30"/>
@@ -31,7 +31,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yja-tE-tTp">
-                                <rect key="frame" x="23" y="454" width="384" height="134"/>
+                                <rect key="frame" x="16" y="395" width="336" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -45,7 +45,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHH-tM-HD2">
-                                <rect key="frame" x="23" y="620" width="369" height="174"/>
+                                <rect key="frame" x="3" y="567" width="369" height="161"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -58,8 +58,8 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHb-Mo-yD4">
-                                <rect key="frame" x="15" y="291" width="384" height="115"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QHb-Mo-yD4">
+                                <rect key="frame" x="20" y="265" width="334" height="150"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Causes - Air pollution is many caused by the burning of fossil fuels like coal that factories use. It is also produced by vehicles such as cars, trains, airplanes, etc. It is even produced from household cleaning products such as painting supplies since they emit toxic chemicals into the air.</string>
@@ -71,6 +71,18 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tor-DL-6HI">
+                                <rect key="frame" x="130" y="736" width="108" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10300276899999999" green="0.0094389785890000005" blue="0.7976177377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="More Info">
+                                    <color key="titleColor" red="0.3981919773" green="0.73475698769999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="airPollution:" destination="dah-8s-yVf" eventType="touchUpInside" id="Lpu-xL-yyL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.76132306974949482" blue="0.4693094559781027" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -87,18 +99,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bRP-bb-TAJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1443.4782608695652" y="-689.73214285714278"/>
+            <point key="canvasLocation" x="-1444" y="-690.14778325123154"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Xjd-JN-YUk">
             <objects>
-                <viewController id="oQj-sy-lA2" sceneMemberID="viewController">
+                <viewController id="oQj-sy-lA2" customClass="ViewController" customModule="Environmental_Issues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o4i-KD-AKQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download-5" translatesAutoresizingMaskIntoConstraints="NO" id="7zf-5L-YCy">
-                                <rect key="frame" x="33" y="74" width="347" height="150"/>
+                                <rect key="frame" x="33" y="74" width="308" height="150"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHr-2S-cer">
                                 <rect key="frame" x="15" y="44" width="37" height="30"/>
@@ -110,11 +122,11 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WGt-Th-Dgh">
-                                <rect key="frame" x="28" y="463" width="359" height="158"/>
+                                <rect key="frame" x="3" y="413" width="359" height="139"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">Effects -  The deadliest effect from water pollution is death. Death of humans and animals. Unclean water can give people diseases and contributes greatly to helping spread diseases. In the water, it can contribute to major algae blooms that consume all the oxygen in the water and blocks sunlight, killing any and all sea life.</string>
+                                        <string key="content">Effects -  The deadliest effect of water pollution is death of humans and animals. Unclean water can give people diseases and contributes to helping spread diseases. In the water, it can contribute to major algae blooms that consume all the oxygen in the water and blocks sunlight, killing any and all sea life.</string>
                                         <attributes>
                                             <font key="NSFont" size="16" name=".AppleSystemUIFont"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -124,11 +136,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MAa-M6-04W">
-                                <rect key="frame" x="21" y="652" width="384" height="194"/>
+                                <rect key="frame" x="5" y="560" width="354" height="179"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">Ways to Help - A way to decrease water pollution is to recycle and reduce the amount of trash that we use. Some other ways to help are to properly dispose of trash and chemical cleaners, reduce the use of pesticides and fertilizers, and maintaining your car so it doesn’t leak items like oil. Runoff is something that makes a big difference, and we can all help by creating less chemicals that can be taken to bodies of water by runoff.</string>
+                                        <string key="content">Ways to Help - A way to decrease water pollution is to recycle and reduce the amount of trash we use. Some other ways to help are to properly dispose of trash and chemical cleaners, reduce the use of pesticides and fertilizers, and maintaining your car so it doesn’t leak oil. Runoff makes a big difference, and we can help by creating less chemicals that can be taken to bodies of water.</string>
                                         <attributes>
                                             <font key="NSFont" size="16" name=".AppleSystemUIFont"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -138,11 +150,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geR-xf-v5e">
-                                <rect key="frame" x="16" y="232" width="394" height="217"/>
+                                <rect key="frame" x="16" y="221" width="338" height="184"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">Causes - Water pollution is caused by many different things such as oil spills, littering, pesticides and fertilizers, wastewater or water, and radioactive waste.  When is rains, pesticides, fertilizers, and other chemicals that farmers use runs into bodies of water causing pollution. 80% of the world’s waste water is returned to the environment without being treated. Radioactive waste from nuclear power plants, uranium mining, and materials for research / medicine can contaminate the water harming marine animals and plants.</string>
+                                        <string key="content">Causes - Water pollution is caused by many different things such as oil spills, littering, pesticides and fertilizers, wastewater or water, and radioactive waste.  When is rains, pesticides, fertilizers, and other chemicals that farmers use runs into water causing pollution. 80% of the world’s waste water is returned to the environment. Radioactive waste from nuclear power plants, uranium mining, and materials for research / medicine can contaminate the water.</string>
                                         <attributes>
                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="15" name=".AppleSystemUIFont"/>
@@ -152,6 +164,18 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rps-dZ-Frl">
+                                <rect key="frame" x="128" y="747" width="108" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10300276899999999" green="0.0094389785890000005" blue="0.7976177377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="More Info">
+                                    <color key="titleColor" red="0.3981919773" green="0.73475698769999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="waterPollution:" destination="oQj-sy-lA2" eventType="touchUpInside" id="SCa-jK-Edc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.67320634729956597" green="1" blue="0.93136114015850613" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -172,11 +196,11 @@
             <objects>
                 <viewController id="JU9-Ra-bhV" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SuC-FX-EBG">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rff-Vq-Ksy">
-                                <rect key="frame" x="122" y="190" width="169" height="156"/>
+                                <rect key="frame" x="122" y="190" width="130" height="156"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="120"/>
                                 <state key="normal" title="🌊"/>
                                 <connections>
@@ -184,7 +208,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sD5-bh-MhN">
-                                <rect key="frame" x="122" y="462" width="169" height="156"/>
+                                <rect key="frame" x="122" y="462" width="130" height="156"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="120"/>
                                 <state key="normal" title="💨"/>
                                 <connections>
@@ -192,7 +216,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Types of Pollution" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUI-Xy-o2V">
-                                <rect key="frame" x="84" y="105" width="265" height="36"/>
+                                <rect key="frame" x="84" y="105" width="226" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -248,13 +272,13 @@
         <!--View Controller-->
         <scene sceneID="e2I-2N-gc9">
             <objects>
-                <viewController id="V13-J7-cHA" sceneMemberID="viewController">
+                <viewController id="V13-J7-cHA" customClass="ViewController" customModule="Environmental_Issues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xg1-WC-DFv">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download-6" translatesAutoresizingMaskIntoConstraints="NO" id="yb6-0r-Ee1">
-                                <rect key="frame" x="41" y="74" width="332" height="168"/>
+                                <rect key="frame" x="41" y="74" width="293" height="168"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxV-9q-Rde">
                                 <rect key="frame" x="15" y="44" width="37" height="30"/>
@@ -265,21 +289,8 @@
                                     <segue destination="hu4-bc-aMc" kind="show" id="wLc-vI-7Rz"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ien-kk-Fup">
-                                <rect key="frame" x="15" y="649" width="384" height="122"/>
-                                <attributedString key="attributedText">
-                                    <fragment>
-                                        <string key="content">Ways to Help - Conserve energy and recycling. Conserving energy helps by producing less pollutants that go into the air. Recycling helps reduce land fills and the waste products emitted by decomposing.  You can also help by planting more trees to help clean the air.</string>
-                                        <attributes>
-                                            <font key="NSFont" metaFont="system" size="17"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="owo-2x-cAo">
-                                <rect key="frame" x="20" y="469" width="384" height="101.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="owo-2x-cAo">
+                                <rect key="frame" x="15" y="413" width="338" height="139"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Effects - Intensified and more common natural disasters such as drought, hurricanes, storms, etc. Also makes the ocean temperatures rise melting the glaciers and causing polar bears and corals to become endangered.</string>
@@ -292,7 +303,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jc-wB-lsJ">
-                                <rect key="frame" x="15" y="312" width="384" height="101.5"/>
+                                <rect key="frame" x="15" y="284" width="343" height="110"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Causes - Air pollutants such as oil and petrol engines, greenhouse gases, and fossil fuel that get trapped in the atmosphere for centuries causing the planet to heat up.
@@ -305,6 +316,31 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ien-kk-Fup">
+                                <rect key="frame" x="16" y="560" width="339" height="159"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Ways to Help - Conserve energy and recycling. Conserving energy helps by producing less pollutants that go into the air. Recycling helps reduce land fills and the waste products emitted by decomposing.  You can also help by planting more trees to help clean the air.</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="17"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OqP-lY-Voa">
+                                <rect key="frame" x="132" y="727" width="108" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10300276899999999" green="0.0094389785890000005" blue="0.7976177377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="More Info">
+                                    <color key="titleColor" red="0.3981919773" green="0.73475698769999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="globalWarming:" destination="V13-J7-cHA" eventType="touchUpInside" id="y0b-fO-5pP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99058187398584763" green="1" blue="0.72897019873238378" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -334,17 +370,17 @@
             <objects>
                 <viewController id="hu4-bc-aMc" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Puc-kO-CJF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Global Warming" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCL-md-zgV">
-                                <rect key="frame" x="76" y="74" width="262" height="36"/>
+                                <rect key="frame" x="76" y="74" width="223" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fl8-xB-rR6">
-                                <rect key="frame" x="106" y="310" width="202" height="192"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fl8-xB-rR6">
+                                <rect key="frame" x="106" y="310" width="163" height="192"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="150"/>
                                 <state key="normal" title="🌍"/>
                                 <connections>
@@ -360,8 +396,8 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="QGQ-mh-kvu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bg5-0E-vQa">
-                                <rect key="frame" x="34" y="712" width="346" height="42"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bg5-0E-vQa">
+                                <rect key="frame" x="34" y="712" width="307" height="42"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="25"/>
                                 <state key="normal" title="More Facts on the World ">
                                     <color key="titleColor" red="0.41755101577849268" green="0.16427371022036125" blue="0.93271731671554403" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -397,7 +433,7 @@
             <objects>
                 <viewController id="DTt-Ru-s9Y" customClass="InterestingFactsViewController" customModule="Environmental_Issues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ro5-O4-zoh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEy-5r-iHC">
@@ -412,25 +448,25 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Interesting Facts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mv7-vB-UlF">
-                                <rect key="frame" x="81" y="74" width="252" height="36"/>
+                                <rect key="frame" x="81" y="74" width="213" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click on the emoji above" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZd-yw-OD3">
-                                <rect key="frame" x="90" y="711" width="234" height="21"/>
+                                <rect key="frame" x="90" y="711" width="195" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="to get random facts about the world " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zG2-6C-2Kt">
-                                <rect key="frame" x="48" y="740" width="318" height="21"/>
+                                <rect key="frame" x="48" y="740" width="279" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKU-FY-eVc">
-                                <rect key="frame" x="106" y="310" width="202" height="192"/>
+                                <rect key="frame" x="106" y="310" width="163" height="192"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="150"/>
                                 <state key="normal" title="😱"/>
                                 <connections>
@@ -465,11 +501,11 @@
             <objects>
                 <viewController id="Iev-r5-w8l" customClass="QuizViewController" customModule="Environmental_Issues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wyp-wG-OJO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1XS-52-NQl">
-                                <rect key="frame" x="20" y="763" width="108" height="30"/>
+                                <rect key="frame" x="14" y="732" width="108" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Return to Home">
                                     <color key="titleColor" red="0.1137254902" green="0.10980392160000001" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -478,20 +514,107 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="xhN-Bf-xwU"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6MW-9n-5Pf">
-                                <rect key="frame" x="157" y="359" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6MW-9n-5Pf">
+                                <rect key="frame" x="48" y="146" width="40" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Results!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ypc-gS-dtM">
-                                <rect key="frame" x="118" y="76" width="178" height="48"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hXI-l8-Duw">
+                                <rect key="frame" x="44" y="193" width="43" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3. D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dNV-kh-zBU">
+                                <rect key="frame" x="47" y="242" width="45" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4. C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKu-2F-7Ez">
+                                <rect key="frame" x="46" y="290" width="46" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Answer Key!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ypc-gS-dtM">
+                                <rect key="frame" x="84" y="76" width="246" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5. B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOL-Mr-hAe">
+                                <rect key="frame" x="47" y="342" width="44" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="6. A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pzn-Ka-5JM">
+                                <rect key="frame" x="47" y="396" width="45" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="7. B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYt-HD-rJz">
+                                <rect key="frame" x="47" y="450" width="40" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="8. D" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4Y-Li-X81">
+                                <rect key="frame" x="47" y="502" width="45" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="9. C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBe-0M-aKg">
+                                <rect key="frame" x="47" y="554" width="45" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJg-fi-XbJ">
+                                <rect key="frame" x="76" y="649" width="254" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="How many did you get correct out of 10? ">
+                                        <attributes>
+                                            <font key="NSFont" size="21" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10. B" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NSm-BB-ikV">
+                                <rect key="frame" x="42" y="594" width="55" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gR-nU-HK5">
+                                <rect key="frame" x="305" y="38" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tIZ-nU-XsK" kind="show" id="bDP-Hh-Te1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.3981919773" green="0.73475698769999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="UeU-qE-X47"/>
@@ -502,14 +625,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xwy-cd-nff" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2884" y="126"/>
+            <point key="canvasLocation" x="-2884.057971014493" y="125.89285714285714"/>
         </scene>
         <!--Quiz View Controller-->
         <scene sceneID="FtZ-Hp-jbH">
             <objects>
                 <viewController id="tIZ-nU-XsK" customClass="QuizViewController" customModule="Environmental_Issues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lOl-oX-gWo">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0JD-f5-yJl">
@@ -609,17 +732,6 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mqx-zU-F2f">
-                                <rect key="frame" x="311" y="748" width="51" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Results">
-                                    <color key="titleColor" red="0.1137254902" green="0.10980392160000001" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="resultsTapped:" destination="tIZ-nU-XsK" eventType="touchUpInside" id="oDM-c0-eQr"/>
-                                    <segue destination="Iev-r5-w8l" kind="show" id="bdk-on-Aav"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Eww-ZF-QrR">
                                 <rect key="frame" x="139" y="532" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -643,6 +755,28 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLL-0A-H38">
+                                <rect key="frame" x="43" y="748" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.1137254902" green="0.10980392160000001" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hFy-ZR-nIg" kind="show" id="dLB-nn-2MA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mqx-zU-F2f">
+                                <rect key="frame" x="282" y="748" width="51" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Results">
+                                    <color key="titleColor" red="0.1137254902" green="0.10980392160000001" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="resultsTapped:" destination="tIZ-nU-XsK" eventType="touchUpInside" id="oDM-c0-eQr"/>
+                                    <segue destination="Iev-r5-w8l" kind="show" id="bdk-on-Aav"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.3981919773" green="0.73475698769999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="mDg-ya-j84"/>
@@ -657,7 +791,7 @@
             <objects>
                 <viewController id="hFy-ZR-nIg" customClass="QuizViewController" customModule="Environmental_Issues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M84-wb-9mz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FhH-Rw-Ktw">
@@ -759,7 +893,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDi-TI-g5y">
-                                <rect key="frame" x="327" y="748" width="32" height="30"/>
+                                <rect key="frame" x="306" y="748" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" red="0.1137254902" green="0.10980392160000001" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -778,6 +912,17 @@
                                     <action selector="Q5:" destination="hFy-ZR-nIg" eventType="editingDidEnd" id="jtS-LA-xRT"/>
                                 </connections>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8S-tN-Wxg">
+                                <rect key="frame" x="34" y="748" width="37" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="i77-VB-bBl" kind="show" id="VGU-Vx-5bF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.3981919773" green="0.73475698769999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="RDE-ls-o6r"/>
@@ -792,17 +937,17 @@
             <objects>
                 <viewController id="i77-VB-bBl" customClass="QuizViewController" customModule="Environmental_Issues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eWO-2g-sKf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quiz Time!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaA-3C-69h">
-                                <rect key="frame" x="80" y="74" width="254" height="48"/>
+                                <rect key="frame" x="80" y="74" width="215" height="48"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1.) How many African elephants are killed dailey by poachers?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohB-FF-yKK">
-                                <rect key="frame" x="16" y="159" width="469" height="41"/>
+                                <rect key="frame" x="16" y="159" width="328" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -946,7 +1091,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N88-Z3-Cm4">
-                                <rect key="frame" x="327" y="748" width="32" height="30"/>
+                                <rect key="frame" x="286" y="748" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Next">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -967,18 +1112,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZRZ-gJ-8xq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-714.39999999999998" y="124.8768472906404"/>
+            <point key="canvasLocation" x="-716" y="124.13793103448276"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Environmental_Issues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PAg-ei-96F">
-                                <rect key="frame" x="17" y="182" width="381" height="52"/>
+                                <rect key="frame" x="17" y="182" width="342" height="52"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="33"/>
                                 <state key="normal" title="Endangered Animals">
                                     <color key="titleColor" red="0.0" green="0.08235294118" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -988,7 +1133,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNw-DG-9fG">
-                                <rect key="frame" x="32" y="444" width="363" height="60"/>
+                                <rect key="frame" x="32" y="444" width="324" height="60"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
                                 <state key="normal" title="Global Warming ">
                                     <color key="titleColor" red="0.0" green="0.08235294118" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -998,7 +1143,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ojy-VX-bkO">
-                                <rect key="frame" x="142" y="579" width="130" height="60"/>
+                                <rect key="frame" x="142" y="579" width="91" height="60"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
                                 <state key="normal" title="Quiz">
                                     <color key="titleColor" red="0.0" green="0.08235294118" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1008,7 +1153,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tid-Cy-Cem">
-                                <rect key="frame" x="99" y="309" width="218" height="60"/>
+                                <rect key="frame" x="99" y="309" width="179" height="60"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
                                 <state key="normal" title="Pollution">
                                     <color key="titleColor" red="0.0" green="0.08235294118" blue="0.79607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1018,13 +1163,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Environmental Issues!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WGL-ab-qth">
-                                <rect key="frame" x="40" y="74" width="335" height="33"/>
+                                <rect key="frame" x="40" y="74" width="296" height="33"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
                                 <color key="textColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click above to find out more" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I9B-mg-amF">
-                                <rect key="frame" x="52" y="714" width="323" height="28"/>
+                                <rect key="frame" x="52" y="714" width="284" height="28"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="23"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1062,18 +1207,18 @@
             <objects>
                 <viewController id="Jpf-Of-sNw" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cdF-hr-br7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHt-b3-wye">
-                                <rect key="frame" x="54" y="233" width="106" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHt-b3-wye">
+                                <rect key="frame" x="54" y="233" width="108" height="132"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <state key="normal" title="🐬"/>
                                 <connections>
                                     <segue destination="0ca-4x-B99" kind="show" id="XZV-cZ-Y6j"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2nd-QI-Joh">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2nd-QI-Joh">
                                 <rect key="frame" x="54" y="457" width="108" height="132"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <state key="normal" title="🐼"/>
@@ -1081,21 +1226,13 @@
                                     <segue destination="g4c-jD-tbC" kind="show" id="w0u-iM-QDY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHn-mW-uEY">
-                                <rect key="frame" x="216" y="457" width="108" height="132"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
-                                <state key="normal" title="🐆"/>
-                                <connections>
-                                    <segue destination="ZZT-Gy-Pwg" kind="show" id="tOa-RN-Sj3"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Dolphins" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R0L-HB-Elt">
-                                <rect key="frame" x="74" y="353" width="68" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dolphins" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R0L-HB-Elt">
+                                <rect key="frame" x="74" y="353" width="67.333333333333314" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Pandas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyn-Q2-Xt9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pandas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyn-Q2-Xt9">
                                 <rect key="frame" x="80" y="568" width="57" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -1110,14 +1247,16 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="iCd-tL-x9d"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Cheetahs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4PE-xH-Fjl">
-                                <rect key="frame" x="244" y="568" width="74" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cheetahs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4PE-xH-Fjl">
+                                <rect key="frame" x="226" y="568" width="74" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Sea Turtles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5OO-5D-k4h">
-                                <rect key="frame" x="247" y="353" width="102" height="37"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sea Turtles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5OO-5D-k4h">
+                                <rect key="frame" x="219" y="345" width="102" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1128,42 +1267,37 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eub-oH-cH7">
-                                <rect key="frame" x="227" y="233" width="110" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eub-oH-cH7">
+                                <rect key="frame" x="208" y="227" width="110" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <state key="normal" title="🐢"/>
                                 <connections>
                                     <segue destination="3Sc-lR-ah9" kind="show" id="6Ww-Yb-d9Z"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHn-mW-uEY">
+                                <rect key="frame" x="213" y="446" width="108" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                <state key="normal" title="🐆"/>
+                                <connections>
+                                    <segue destination="ZZT-Gy-Pwg" kind="show" id="tOa-RN-Sj3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.58342334969999998" green="1" blue="0.66909735839999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="4PE-xH-Fjl" firstAttribute="top" secondItem="5OO-5D-k4h" secondAttribute="bottom" constant="195" id="7Ec-Kq-dYr"/>
-                            <constraint firstItem="KHn-mW-uEY" firstAttribute="top" secondItem="Eub-oH-cH7" secondAttribute="bottom" constant="106" id="7Oh-ab-zr4"/>
-                            <constraint firstItem="IeK-aS-Sh7" firstAttribute="trailing" secondItem="Eub-oH-cH7" secondAttribute="trailing" constant="51" id="7go-bF-DcU"/>
                             <constraint firstItem="R0L-HB-Elt" firstAttribute="top" secondItem="owj-yA-vnp" secondAttribute="bottom" constant="240" id="90r-fK-Dt3"/>
-                            <constraint firstItem="IeK-aS-Sh7" firstAttribute="trailing" secondItem="4PE-xH-Fjl" secondAttribute="trailing" constant="68" id="9V3-mc-Ywc"/>
-                            <constraint firstItem="KHn-mW-uEY" firstAttribute="leading" secondItem="gyn-Q2-Xt9" secondAttribute="trailing" constant="79" id="Bq8-LS-CF7"/>
-                            <constraint firstItem="5OO-5D-k4h" firstAttribute="leading" secondItem="ZHt-b3-wye" secondAttribute="trailing" constant="67" id="CoK-hO-um1"/>
                             <constraint firstItem="owj-yA-vnp" firstAttribute="leading" secondItem="IeK-aS-Sh7" secondAttribute="leading" constant="46" id="D0T-We-SVM"/>
                             <constraint firstItem="gyn-Q2-Xt9" firstAttribute="leading" secondItem="IeK-aS-Sh7" secondAttribute="leading" constant="80" id="DjC-0n-K1p"/>
                             <constraint firstItem="gyn-Q2-Xt9" firstAttribute="top" secondItem="R0L-HB-Elt" secondAttribute="bottom" constant="194" id="H4P-HT-c3k"/>
-                            <constraint firstItem="5OO-5D-k4h" firstAttribute="top" secondItem="Eub-oH-cH7" secondAttribute="bottom" constant="3" id="JV9-AB-s6F"/>
-                            <constraint firstItem="IeK-aS-Sh7" firstAttribute="trailing" secondItem="5OO-5D-k4h" secondAttribute="trailing" constant="67" id="Ord-BL-a7v"/>
                             <constraint firstItem="2nd-QI-Joh" firstAttribute="top" secondItem="ZHt-b3-wye" secondAttribute="bottom" constant="92" id="Qyj-wf-M7q"/>
                             <constraint firstItem="2nd-QI-Joh" firstAttribute="leading" secondItem="IeK-aS-Sh7" secondAttribute="leading" constant="54" id="R7W-Ie-Ta6"/>
-                            <constraint firstItem="4PE-xH-Fjl" firstAttribute="leading" secondItem="2nd-QI-Joh" secondAttribute="trailing" constant="70" id="U5Q-Tn-zkX"/>
                             <constraint firstItem="ZHt-b3-wye" firstAttribute="leading" secondItem="IeK-aS-Sh7" secondAttribute="leading" constant="54" id="fjC-Bp-1Ql"/>
-                            <constraint firstItem="KHn-mW-uEY" firstAttribute="leading" secondItem="2nd-QI-Joh" secondAttribute="trailing" constant="54" id="gXm-4b-JQF"/>
-                            <constraint firstItem="5OO-5D-k4h" firstAttribute="leading" secondItem="R0L-HB-Elt" secondAttribute="trailing" constant="85" id="gqd-oB-CXa"/>
-                            <constraint firstItem="IeK-aS-Sh7" firstAttribute="trailing" secondItem="KHn-mW-uEY" secondAttribute="trailing" constant="51" id="gxy-lW-5F2"/>
-                            <constraint firstItem="Eub-oH-cH7" firstAttribute="leading" secondItem="ZHt-b3-wye" secondAttribute="trailing" constant="54" id="k18-XI-inl"/>
                             <constraint firstItem="IeK-aS-Sh7" firstAttribute="trailing" secondItem="owj-yA-vnp" secondAttribute="trailing" constant="46" id="kXC-Ae-NMK"/>
-                            <constraint firstItem="Eub-oH-cH7" firstAttribute="leading" secondItem="ZHt-b3-wye" secondAttribute="trailing" constant="54" id="mjR-RC-Bw7"/>
                             <constraint firstItem="ZHt-b3-wye" firstAttribute="top" secondItem="owj-yA-vnp" secondAttribute="bottom" constant="120" id="pBf-9m-FeH"/>
-                            <constraint firstItem="Eub-oH-cH7" firstAttribute="top" secondItem="owj-yA-vnp" secondAttribute="bottom" constant="106" id="qlo-0y-ViI"/>
                             <constraint firstItem="R0L-HB-Elt" firstAttribute="leading" secondItem="IeK-aS-Sh7" secondAttribute="leading" constant="74" id="trp-iX-bnO"/>
                             <constraint firstItem="owj-yA-vnp" firstAttribute="top" secondItem="IeK-aS-Sh7" secondAttribute="top" constant="30" id="xQC-xy-cro"/>
                         </constraints>
@@ -1177,13 +1311,13 @@
         <!--View Controller-->
         <scene sceneID="FR8-80-4TB">
             <objects>
-                <viewController id="g4c-jD-tbC" sceneMemberID="viewController">
+                <viewController id="g4c-jD-tbC" customClass="ViewController" customModule="Environmental_Issues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OJV-fp-rhw">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download-2" translatesAutoresizingMaskIntoConstraints="NO" id="nny-VQ-riO">
-                                <rect key="frame" x="36" y="74" width="341" height="194"/>
+                                <rect key="frame" x="36" y="74" width="302" height="194"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h08-cn-Eot">
                                 <rect key="frame" x="15" y="44" width="37" height="30"/>
@@ -1197,8 +1331,9 @@
                                     <segue destination="Jpf-Of-sNw" kind="show" id="00f-RE-izB"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXy-dN-RCy">
-                                <rect key="frame" x="15" y="501" width="384" height="125.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HXy-dN-RCy">
+                                <rect key="frame" x="27" y="405" width="321" height="204"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Effects - One effect that the Pandas will have if they go extinct is on the economic benefits. People travel from all over to see them. Another effect is that there will not as much of a widespread growth of bamboo forests. They help keep the vegetation of the forests alive and safeguarding the environment. Without them the environment of places use to Pandas will be in danger.</string>
@@ -1211,15 +1346,9 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECo-51-1s2">
-                                <rect key="frame" x="20" y="693" width="384" height="125.5"/>
-                                <string key="text">Ways to help -  One Way to help is to use less paper. Pandas depend on bamboo for food and more paper means less bamboo. Another way is to provide areas that are only for hurt or injured pandas so we can help them get back on their feet instead of being left to die. Again another way is to donate to Panda Conservation centers.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eON-S5-3Wc">
-                                <rect key="frame" x="15" y="322" width="384" height="125.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eON-S5-3Wc">
+                                <rect key="frame" x="18" y="274" width="338" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Causes - One reason why Pandas are endangered is because of deforestation which is a  huge problem that us humans caused. Another is because not all female pandas have the ability to give birth to baby pandas which is causing a decrease in the panda population.  Also, food shortages are a huge part of their endangerment.</string>
@@ -1231,21 +1360,32 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEE-OB-Fkl">
+                                <rect key="frame" x="133" y="736" width="108" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10300276899999999" green="0.0094389785890000005" blue="0.7976177377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="More Info">
+                                    <color key="titleColor" red="0.3981919773" green="0.73475698769999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="pandas:" destination="g4c-jD-tbC" eventType="touchUpInside" id="Bf8-N8-NKn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECo-51-1s2">
+                                <rect key="frame" x="15" y="602" width="332" height="126"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Ways to help -  One Way to help is to use less paper. Pandas depend on bamboo for food and more paper means less bamboo. Another way is to provide areas that are only for hurt or injured pandas so we can help them get back on their feet instead of being left to die. Again another way is to donate to Panda Conservation centers.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.90588235289999997" green="0.55283119865252439" blue="0.87984946080287929" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="HXy-dN-RCy" firstAttribute="top" secondItem="eON-S5-3Wc" secondAttribute="bottom" constant="20" id="1Az-l3-296"/>
-                            <constraint firstItem="KiI-BX-Gmd" firstAttribute="trailing" secondItem="HXy-dN-RCy" secondAttribute="trailing" constant="15" id="444-Sh-dMM"/>
-                            <constraint firstItem="KiI-BX-Gmd" firstAttribute="trailing" secondItem="eON-S5-3Wc" secondAttribute="trailing" constant="15" id="5Z6-Z0-XXO"/>
-                            <constraint firstItem="KiI-BX-Gmd" firstAttribute="trailing" secondItem="ECo-51-1s2" secondAttribute="trailing" constant="15" id="76e-7i-Ude"/>
-                            <constraint firstItem="ECo-51-1s2" firstAttribute="leading" secondItem="KiI-BX-Gmd" secondAttribute="leading" constant="15" id="7wa-tD-ip8"/>
                             <constraint firstItem="nny-VQ-riO" firstAttribute="top" secondItem="KiI-BX-Gmd" secondAttribute="top" constant="30" id="KnC-k7-yei"/>
-                            <constraint firstItem="HXy-dN-RCy" firstAttribute="leading" secondItem="KiI-BX-Gmd" secondAttribute="leading" constant="15" id="NV3-q1-tQo"/>
-                            <constraint firstItem="ECo-51-1s2" firstAttribute="top" secondItem="HXy-dN-RCy" secondAttribute="bottom" constant="20" id="Q71-Fr-2Xq"/>
-                            <constraint firstItem="eON-S5-3Wc" firstAttribute="leading" secondItem="KiI-BX-Gmd" secondAttribute="leading" constant="15" id="R95-sP-WrJ"/>
                             <constraint firstItem="KiI-BX-Gmd" firstAttribute="trailing" secondItem="nny-VQ-riO" secondAttribute="trailing" constant="37" id="d0y-Xt-S06"/>
-                            <constraint firstItem="eON-S5-3Wc" firstAttribute="top" secondItem="nny-VQ-riO" secondAttribute="bottom" constant="20" id="s4x-uj-SZd"/>
                             <constraint firstItem="nny-VQ-riO" firstAttribute="leading" secondItem="KiI-BX-Gmd" secondAttribute="leading" constant="36" id="v46-DZ-k3r"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="KiI-BX-Gmd"/>
@@ -1258,13 +1398,13 @@
         <!--View Controller-->
         <scene sceneID="UWk-XU-2ng">
             <objects>
-                <viewController id="ZZT-Gy-Pwg" sceneMemberID="viewController">
+                <viewController id="ZZT-Gy-Pwg" customClass="ViewController" customModule="Environmental_Issues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ho6-wC-fgR">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download-3" translatesAutoresizingMaskIntoConstraints="NO" id="hh7-Ea-Kfl">
-                                <rect key="frame" x="50" y="74" width="313" height="168"/>
+                                <rect key="frame" x="50" y="74" width="274" height="168"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6J-UK-Cgk">
                                 <rect key="frame" x="15" y="44" width="37" height="30"/>
@@ -1275,8 +1415,9 @@
                                     <segue destination="Jpf-Of-sNw" kind="show" id="fgD-vI-KZg"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lGf-Tr-b58">
-                                <rect key="frame" x="20" y="650" width="384" height="101.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lGf-Tr-b58">
+                                <rect key="frame" x="8" y="572" width="359" height="123"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Ways to help -  some ways we can help endangered Cheetahs is to help out or donate to Cheetah Conservation Funds. Another way is to speak up for your beliefs and what’s wrong. Lastly, if you can try to adopt an animal.</string>
@@ -1288,15 +1429,17 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENq-CX-ytr">
-                                <rect key="frame" x="20" y="470" width="384" height="122"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENq-CX-ytr">
+                                <rect key="frame" x="30" y="416" width="324" height="177"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Effects - The loss of habitat affects Cheetahs because they don’t have anywhere to live and end up dying. The effects that natural competition has on Cheetahs is that makes them fight with other animals such as Tigers for food and the right to survive which shouldn’t be the case.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zbh-HK-fWK">
-                                <rect key="frame" x="20" y="290" width="384" height="142.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zbh-HK-fWK">
+                                <rect key="frame" x="20" y="240" width="334" height="168"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Causes -  Cheetahs are endangered because they require large, open areas and are at a loss of living space. Another cause is that the native people of Southern Africa hunt down and kill cheetahs in order to make room for themselves. Last, but not least Cheetahs have natural completion with other predators in the wild.</string>
@@ -1308,22 +1451,25 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R1W-3f-JCR">
+                                <rect key="frame" x="138" y="715" width="108" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10300276899999999" green="0.0094389785890000005" blue="0.7976177377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="More Info">
+                                    <color key="titleColor" red="0.3981919773" green="0.73475698769999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="cheetahs:" destination="ZZT-Gy-Pwg" eventType="touchUpInside" id="vhL-Q9-M54"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.75014109770801063" blue="0.68142870239703357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="zMm-YT-dlm" firstAttribute="trailing" secondItem="Zbh-HK-fWK" secondAttribute="trailing" constant="15" id="0h0-GH-fxo"/>
-                            <constraint firstItem="zMm-YT-dlm" firstAttribute="trailing" secondItem="ENq-CX-ytr" secondAttribute="trailing" constant="15" id="DIe-al-qnJ"/>
-                            <constraint firstItem="Zbh-HK-fWK" firstAttribute="top" secondItem="hh7-Ea-Kfl" secondAttribute="bottom" constant="20" id="Ij8-Aq-NGB"/>
-                            <constraint firstItem="Zbh-HK-fWK" firstAttribute="leading" secondItem="zMm-YT-dlm" secondAttribute="leading" constant="15" id="Iuk-qH-Qbw"/>
                             <constraint firstItem="hh7-Ea-Kfl" firstAttribute="top" secondItem="zMm-YT-dlm" secondAttribute="top" constant="30" id="cM8-uc-fnI"/>
-                            <constraint firstItem="lGf-Tr-b58" firstAttribute="leading" secondItem="zMm-YT-dlm" secondAttribute="leading" constant="15" id="eC9-R3-gyM"/>
-                            <constraint firstItem="zMm-YT-dlm" firstAttribute="trailing" secondItem="lGf-Tr-b58" secondAttribute="trailing" constant="15" id="hom-Nd-j5F"/>
                             <constraint firstItem="hh7-Ea-Kfl" firstAttribute="leading" secondItem="zMm-YT-dlm" secondAttribute="leading" constant="50" id="r3H-0m-NPk"/>
-                            <constraint firstItem="lGf-Tr-b58" firstAttribute="top" secondItem="ENq-CX-ytr" secondAttribute="bottom" constant="20" id="uD0-7Q-H7J"/>
-                            <constraint firstItem="ENq-CX-ytr" firstAttribute="top" secondItem="Zbh-HK-fWK" secondAttribute="bottom" constant="20" id="vCW-hN-dJa"/>
                             <constraint firstItem="zMm-YT-dlm" firstAttribute="trailing" secondItem="hh7-Ea-Kfl" secondAttribute="trailing" constant="51" id="vcH-id-PIK"/>
-                            <constraint firstItem="ENq-CX-ytr" firstAttribute="leading" secondItem="zMm-YT-dlm" secondAttribute="leading" constant="15" id="wZC-Oz-fRp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zMm-YT-dlm"/>
                     </view>
@@ -1335,9 +1481,9 @@
         <!--View Controller-->
         <scene sceneID="5sp-lQ-kAU">
             <objects>
-                <viewController id="3Sc-lR-ah9" sceneMemberID="viewController">
+                <viewController id="3Sc-lR-ah9" customClass="ViewController" customModule="Environmental_Issues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Wrp-eq-0am">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-1" translatesAutoresizingMaskIntoConstraints="NO" id="Khw-9Y-IBR">
@@ -1345,7 +1491,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xwc-i8-DiP">
-                                <rect key="frame" x="35" y="458" width="345" height="176"/>
+                                <rect key="frame" x="23" y="416" width="345" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -1360,7 +1506,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KkY-EL-0sf">
-                                <rect key="frame" x="28" y="660" width="345" height="131"/>
+                                <rect key="frame" x="23" y="600" width="345" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -1383,7 +1529,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OZe-vf-iwa">
-                                <rect key="frame" x="32" y="292" width="350" height="141"/>
+                                <rect key="frame" x="35" y="267" width="321" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -1396,6 +1542,18 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sO7-r1-Xrk">
+                                <rect key="frame" x="141" y="736" width="108" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10300276899999999" green="0.0094389785890000005" blue="0.7976177377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="More Info">
+                                    <color key="titleColor" red="0.3981919773" green="0.73475698769999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="turtles:" destination="3Sc-lR-ah9" eventType="touchUpInside" id="T5e-La-CEJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.14117647059999999" green="0.71764705880000002" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -1409,9 +1567,9 @@
         <!--View Controller-->
         <scene sceneID="ej9-uI-tF9">
             <objects>
-                <viewController id="0ca-4x-B99" sceneMemberID="viewController">
+                <viewController id="0ca-4x-B99" customClass="ViewController" customModule="Environmental_Issues" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pd2-8g-cRQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="download" translatesAutoresizingMaskIntoConstraints="NO" id="bIh-Wy-WNS">
@@ -1428,22 +1586,25 @@
                                     <segue destination="Jpf-Of-sNw" kind="show" id="aSZ-dA-khp"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p2z-YM-ik9">
-                                <rect key="frame" x="15" y="486" width="384" height="95.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p2z-YM-ik9">
+                                <rect key="frame" x="16" y="445" width="333" height="110"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Effects - Dolphins are considered the sanitary police of the oceans since they prey mainly on old and ill fish. By killing off all the dolphins, the oceans could result in a higher disease rate in many different kinds of fish.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAI-Wm-7cL">
-                                <rect key="frame" x="15" y="645" width="384" height="153"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAI-Wm-7cL">
+                                <rect key="frame" x="27" y="551" width="329" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Ways to Help - Some ways that people can help is by recycling, not littering, conserving water, and pulling weeds instead of using pesticides. After it rains, pesticides can end up in large bodies of water, contributing to chemical pollution that are harmful to the dolphins. If there are conservation projects in your local area, participate and help keep the oceans clean!</string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TiF-Jw-4Ph">
-                                <rect key="frame" x="20" y="288" width="384" height="134"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TiF-Jw-4Ph">
+                                <rect key="frame" x="27" y="278" width="321" height="159"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
                                         <string key="content">Causes - Dolphins are mostly endangered due to human activity such as illegal dynamite fishing or bombing fish for easy collection, getting entangled in fishing nets, dolphin hunting, captivity, global warming, and pollutions such as chemicals in the water and noises like oil drilling that can damage their hearing.</string>
@@ -1455,22 +1616,25 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RlE-J4-DMa">
+                                <rect key="frame" x="128" y="753" width="108" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.10300276899999999" green="0.0094389785890000005" blue="0.7976177377" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <state key="normal" title="More Info">
+                                    <color key="titleColor" red="0.3981919773" green="0.73475698769999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="dolphin:" destination="0ca-4x-B99" eventType="touchUpInside" id="THx-D8-7nb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.60143024204225348" green="0.61930925169999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="c6H-Nl-bXb" firstAttribute="trailing" secondItem="hAI-Wm-7cL" secondAttribute="trailing" constant="15" id="0lt-SJ-oxb"/>
-                            <constraint firstItem="p2z-YM-ik9" firstAttribute="top" secondItem="TiF-Jw-4Ph" secondAttribute="bottom" constant="20" id="Cfv-4g-AqW"/>
                             <constraint firstItem="bIh-Wy-WNS" firstAttribute="leading" secondItem="c6H-Nl-bXb" secondAttribute="leading" constant="45" id="Tbb-gF-bbf"/>
-                            <constraint firstItem="p2z-YM-ik9" firstAttribute="leading" secondItem="c6H-Nl-bXb" secondAttribute="leading" constant="15" id="UfE-Mc-IZw"/>
-                            <constraint firstItem="c6H-Nl-bXb" firstAttribute="trailing" secondItem="p2z-YM-ik9" secondAttribute="trailing" constant="15" id="Vj1-Ap-N9k"/>
-                            <constraint firstItem="hAI-Wm-7cL" firstAttribute="leading" secondItem="c6H-Nl-bXb" secondAttribute="leading" constant="15" id="aHS-Ce-x6w"/>
-                            <constraint firstItem="TiF-Jw-4Ph" firstAttribute="leading" secondItem="c6H-Nl-bXb" secondAttribute="leading" constant="15" id="bnb-zo-KOf"/>
-                            <constraint firstItem="c6H-Nl-bXb" firstAttribute="trailing" secondItem="TiF-Jw-4Ph" secondAttribute="trailing" constant="15" id="eQw-2f-yHI"/>
                             <constraint firstItem="c6H-Nl-bXb" firstAttribute="trailing" secondItem="bIh-Wy-WNS" secondAttribute="trailing" constant="45" id="jDO-mp-fBv"/>
-                            <constraint firstItem="hAI-Wm-7cL" firstAttribute="top" secondItem="p2z-YM-ik9" secondAttribute="bottom" constant="50" id="m0Z-sq-g4C"/>
                             <constraint firstItem="bIh-Wy-WNS" firstAttribute="top" secondItem="c6H-Nl-bXb" secondAttribute="top" constant="30" id="qap-8i-Lmc"/>
-                            <constraint firstItem="TiF-Jw-4Ph" firstAttribute="top" secondItem="bIh-Wy-WNS" secondAttribute="bottom" constant="20" id="xjj-oU-eh7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="c6H-Nl-bXb"/>
                     </view>
@@ -1491,8 +1655,11 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="00f-RE-izB"/>
-        <segue reference="xhN-Bf-xwU"/>
+        <segue reference="iCd-tL-x9d"/>
+        <segue reference="VGU-Vx-5bF"/>
+        <segue reference="dLB-nn-2MA"/>
+        <segue reference="bDP-Hh-Te1"/>
         <segue reference="wLc-vI-7Rz"/>
-        <segue reference="FEi-vV-NbV"/>
+        <segue reference="1Gh-eD-gDe"/>
     </inferredMetricsTieBreakers>
 </document>
